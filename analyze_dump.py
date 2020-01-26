@@ -134,8 +134,8 @@ def main(
         # break
 
     plt.legend(tuple(flow_strs))
-    plt.savefig('books_read.png')
-    # plt.show()
+    plt.savefig('plot_from_{}.png'.format(pickle_file))
+    plt.show()
 
 
 if __name__ == '__main__':
