@@ -69,17 +69,17 @@ def main(
     print('min_iteration_start: {}'.format(min_iteration_start))
     print('max_iteration_end: {}'.format(max_iteration_end))
     print('iteration duration: {}'.format(max_iteration_end - min_iteration_start))
-     
-    # prepare plot
-    plt.title('CDF of flow sizes in {} iterations of ResNet50 training\nDump file:{}'.format(len(iterations), pickle_file))
-    plt.ylabel('% of flow sizes per iteration')
-    plt.xlabel('flow size per iteration [GB per iteration]')
 
     # load flows
     with open(pickle_file, "rb") as raw_pickle:
         print('Opening pickle...')
         flows = pickle.load(raw_pickle)
         print('Loaded!')
+
+    # prepare to pickle even more simplified flows
+    new_flows = dict()
+    new_flows['iterations'] = iterations
+    new_flows['flows'] = dict()
 
     flow_strs = []
     for i, flow_tuple in enumerate(flows):
@@ -92,12 +92,6 @@ def main(
         flow_str = 'Flow {}: {} ~~> {} sent {} GB'.format(i+1, src_address[-2:], dst_address[-2:], flow_size / 10**9)
         flow_strs.append(flow_str)
         print(flow_str)
-
-        # min_timestamp = min(packets, key=lambda pkt: pkt.timestamp).timestamp
-        # max_timestamp = max(packets, key=lambda pkt: pkt.timestamp).timestamp
-        # print('min_timestamp: {}'.format(min_timestamp))
-        # print('max_timestamp: {}'.format(max_timestamp))
-        # print('timestamp span: {}'.format(max_timestamp - min_timestamp))
 
         # scaled packet timestamps to fit into iterations 
         if not no_squeeze:
@@ -116,27 +110,24 @@ def main(
         for packet in packets:
             assign_packet_to_bin(packet, iterations, iteration_bins, min_iteration_start, max_iteration_end)
 
-        # scale sizes to GB
-        sum_of_bins_bytes = 0
-        new_iteration_bins = []
-        for size in iteration_bins:
-            sum_of_bins_bytes += size
-            size_GB = size / 10 ** 9
-            new_iteration_bins.append(size_GB)
-        iteration_bins = new_iteration_bins
-
         # calculate flow size disparity
+        sum_of_bins_bytes = sum(iteration_bins)
         disparity = flow_size - sum_of_bins_bytes
         print('Disparity between flow size and sum of bins: {} GB'.format(disparity / 10**9))
 
-        # print(iteration_bins)
-        add_cdf_to_plot(iteration_bins, plt)
-        # break
+        # simplified new flow format for plotting cdfs
+        if flow_tuple not in new_flows['flows']:
+            new_flows['flows'][flow_tuple] = dict()
+        new_flows['flows'][flow_tuple]['flow_size_bytes'] = flow_size
+        new_flows['flows'][flow_tuple]['iteration_bins'] = iteration_bins
 
-    plt.legend(tuple(flow_strs))
-    plt.savefig('plot_from_{}.png'.format(pickle_file))
-    plt.show()
 
+    # pickle the new flows
+    pickle_name = pickle_file.lstrip("pickle/")
+    with open('pickle/newflows_{}.pickle'.format(pickle_name), 'wb') as handle:
+        print('Pickling...')
+        pickle.dump(new_flows, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        print('Pickled!')
 
 if __name__ == '__main__':
     main()
