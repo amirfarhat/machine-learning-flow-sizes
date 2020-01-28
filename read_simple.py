@@ -126,6 +126,8 @@ def main(
         print(flow_tuple, flow_size, sum(flow_iteration_bins))
         
     pickle_name = filtered_tcpdump_file_name.lstrip("pcaps/")
+    pickle_name = pickle.lstrip("simples/")
+    pickle_name = pickle.lstrip("pickle/")
     with open('pickle/newflows_simple_ahh{}.pickle'.format(pickle_name), 'wb') as handle:
         print('Pickling...')
         pickle.dump(flows, handle, protocol=pickle.HIGHEST_PROTOCOL)
