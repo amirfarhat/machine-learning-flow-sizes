@@ -17,8 +17,8 @@ def split_kungfu_host_and_port(raw_str):
     host_ip = raw_str[:11]
     host_port = raw_str[12:-1] if colon_at_end else raw_str[12:]
 
-    if host_port == 'ndmp':
-        host_port = '10000'
+    # if host_port == 'ndmp':
+    #     host_port = '10000'
 
     return (host_ip, host_port) 
 
@@ -126,7 +126,7 @@ def main(
         print(flow_tuple, flow_size, sum(flow_iteration_bins))
         
     pickle_name = filtered_tcpdump_file_name.lstrip("pcaps/")
-    with open('pickle/newflows_simple_{}.pickle'.format(pickle_name), 'wb') as handle:
+    with open('pickle/newflows_simple_ahh{}.pickle'.format(pickle_name), 'wb') as handle:
         print('Pickling...')
         pickle.dump(flows, handle, protocol=pickle.HIGHEST_PROTOCOL)
         print('Pickled!')
