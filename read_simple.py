@@ -38,7 +38,7 @@ def assign_packet_to_bin(packet, iterations, iteration_bins, min_iteration_start
     r = len(iterations) - 1
 
     while l <= r:
-        mid = int((l + r) // 2)
+        mid = l + int((r - l) // 2); 
 
         # case: pkt timestamp falls inside an iteration
         if iterations[mid].start_time <= pkt_timestamp <= iterations[mid].end_time:
