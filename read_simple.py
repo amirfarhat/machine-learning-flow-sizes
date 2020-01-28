@@ -38,7 +38,7 @@ def assign_packet_to_bin(packet, iterations, iteration_bins, min_iteration_start
     r = len(iterations) - 1
 
     while l <= r:
-        mid = l + int((r - l) // 2); 
+        mid = int((l+r) // 2)
 
         # case: pkt timestamp falls inside an iteration
         if iterations[mid].start_time <= pkt_timestamp <= iterations[mid].end_time:
@@ -126,8 +126,8 @@ def main(
         print(flow_tuple, flow_size, sum(flow_iteration_bins))
         
     pickle_name = filtered_tcpdump_file_name.lstrip("pcaps/")
-    pickle_name = pickle.lstrip("simples/")
-    pickle_name = pickle.lstrip("pickle/")
+    pickle_name = pickle_name.lstrip("simples/")
+    pickle_name = pickle_name.lstrip("pickle/")
     with open('pickle/newflows_simple_ahh{}.pickle'.format(pickle_name), 'wb') as handle:
         print('Pickling...')
         pickle.dump(flows, handle, protocol=pickle.HIGHEST_PROTOCOL)
