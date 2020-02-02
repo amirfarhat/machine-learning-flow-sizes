@@ -1,0 +1,612 @@
+[D] listening: 0.0.0.0:10000
+[D] Kungfu::updateTo(10.128.0.55:10000,10.128.0.55:10001,10.128.0.55:10002,10.128.0.55:10003,10.128.0.54:10000,10.128.0.54:10001,10.128.0.54:10002,10.128.0.54:10003,10.128.0.53:10000,10.128.0.53:10001,10.128.0.53:10002,10.128.0.53:10003,10.128.0.51:10000,10.128.0.51:10001,10.128.0.51:10002,10.128.0.51:10003), 16 peers
+[D] got new connection of type Collective from: 10.128.0.51:10003
+[D] New connection to 10.128.0.55:10001
+Model: ResNet50
+Batch size: 32
+Number of GPUs: 16
+Running warmup...
+Running benchmark...
+Unix epoch time before iter #0: 1580326110.01
+Unix epoch time after iter #0: 1580326114.09
+Iter #0: 7.8 img/sec per GPU
+Unix epoch time before iter #1: 1580326114.09
+Unix epoch time after iter #1: 1580326114.31
+Iter #1: 177.8 img/sec per GPU
+Unix epoch time before iter #2: 1580326114.31
+Unix epoch time after iter #2: 1580326114.47
+Iter #2: 196.7 img/sec per GPU
+Unix epoch time before iter #3: 1580326114.47
+Unix epoch time after iter #3: 1580326114.65
+Iter #3: 175.7 img/sec per GPU
+Unix epoch time before iter #4: 1580326114.65
+Unix epoch time after iter #4: 1580326114.82
+Iter #4: 185.9 img/sec per GPU
+Unix epoch time before iter #5: 1580326114.82
+Unix epoch time after iter #5: 1580326114.99
+Iter #5: 189.2 img/sec per GPU
+Unix epoch time before iter #6: 1580326114.99
+Unix epoch time after iter #6: 1580326115.16
+Iter #6: 194.1 img/sec per GPU
+Unix epoch time before iter #7: 1580326115.16
+Unix epoch time after iter #7: 1580326115.32
+Iter #7: 195.5 img/sec per GPU
+Unix epoch time before iter #8: 1580326115.32
+Unix epoch time after iter #8: 1580326115.49
+Iter #8: 195.0 img/sec per GPU
+Unix epoch time before iter #9: 1580326115.49
+Unix epoch time after iter #9: 1580326115.67
+Iter #9: 174.1 img/sec per GPU
+Unix epoch time before iter #10: 1580326115.67
+Unix epoch time after iter #10: 1580326116.03
+Iter #10: 88.5 img/sec per GPU
+Unix epoch time before iter #11: 1580326116.03
+Unix epoch time after iter #11: 1580326116.22
+Iter #11: 168.7 img/sec per GPU
+Unix epoch time before iter #12: 1580326116.22
+Unix epoch time after iter #12: 1580326116.38
+Iter #12: 204.8 img/sec per GPU
+Unix epoch time before iter #13: 1580326116.38
+Unix epoch time after iter #13: 1580326116.57
+Iter #13: 170.9 img/sec per GPU
+Unix epoch time before iter #14: 1580326116.57
+Unix epoch time after iter #14: 1580326116.74
+Iter #14: 181.6 img/sec per GPU
+Unix epoch time before iter #15: 1580326116.74
+Unix epoch time after iter #15: 1580326116.91
+Iter #15: 189.0 img/sec per GPU
+Unix epoch time before iter #16: 1580326116.91
+Unix epoch time after iter #16: 1580326117.09
+Iter #16: 183.2 img/sec per GPU
+Unix epoch time before iter #17: 1580326117.09
+Unix epoch time after iter #17: 1580326117.27
+Iter #17: 173.9 img/sec per GPU
+Unix epoch time before iter #18: 1580326117.27
+Unix epoch time after iter #18: 1580326117.43
+Iter #18: 195.7 img/sec per GPU
+Unix epoch time before iter #19: 1580326117.43
+Unix epoch time after iter #19: 1580326117.61
+Iter #19: 177.7 img/sec per GPU
+Unix epoch time before iter #20: 1580326117.61
+Unix epoch time after iter #20: 1580326117.78
+Iter #20: 189.9 img/sec per GPU
+Unix epoch time before iter #21: 1580326117.78
+Unix epoch time after iter #21: 1580326117.95
+Iter #21: 190.1 img/sec per GPU
+Unix epoch time before iter #22: 1580326117.95
+Unix epoch time after iter #22: 1580326118.13
+Iter #22: 183.2 img/sec per GPU
+Unix epoch time before iter #23: 1580326118.13
+Unix epoch time after iter #23: 1580326118.51
+Iter #23: 83.6 img/sec per GPU
+Unix epoch time before iter #24: 1580326118.51
+Unix epoch time after iter #24: 1580326118.67
+Iter #24: 197.7 img/sec per GPU
+Unix epoch time before iter #25: 1580326118.67
+Unix epoch time after iter #25: 1580326118.83
+Iter #25: 205.6 img/sec per GPU
+Unix epoch time before iter #26: 1580326118.83
+Unix epoch time after iter #26: 1580326119.01
+Iter #26: 179.7 img/sec per GPU
+Unix epoch time before iter #27: 1580326119.01
+Unix epoch time after iter #27: 1580326119.17
+Iter #27: 195.4 img/sec per GPU
+Unix epoch time before iter #28: 1580326119.17
+Unix epoch time after iter #28: 1580326119.34
+Iter #28: 185.3 img/sec per GPU
+Unix epoch time before iter #29: 1580326119.34
+Unix epoch time after iter #29: 1580326119.51
+Iter #29: 192.8 img/sec per GPU
+Unix epoch time before iter #30: 1580326119.51
+Unix epoch time after iter #30: 1580326119.68
+Iter #30: 183.0 img/sec per GPU
+Unix epoch time before iter #31: 1580326119.68
+Unix epoch time after iter #31: 1580326119.85
+Iter #31: 196.6 img/sec per GPU
+Unix epoch time before iter #32: 1580326119.85
+Unix epoch time after iter #32: 1580326120.02
+Iter #32: 184.4 img/sec per GPU
+Unix epoch time before iter #33: 1580326120.02
+Unix epoch time after iter #33: 1580326120.19
+Iter #33: 194.5 img/sec per GPU
+Unix epoch time before iter #34: 1580326120.19
+Unix epoch time after iter #34: 1580326120.36
+Iter #34: 183.8 img/sec per GPU
+Unix epoch time before iter #35: 1580326120.36
+Unix epoch time after iter #35: 1580326120.53
+Iter #35: 186.5 img/sec per GPU
+Unix epoch time before iter #36: 1580326120.53
+Unix epoch time after iter #36: 1580326120.7
+Iter #36: 192.7 img/sec per GPU
+Unix epoch time before iter #37: 1580326120.7
+Unix epoch time after iter #37: 1580326120.87
+Iter #37: 184.1 img/sec per GPU
+Unix epoch time before iter #38: 1580326120.87
+Unix epoch time after iter #38: 1580326121.03
+Iter #38: 196.3 img/sec per GPU
+Unix epoch time before iter #39: 1580326121.03
+Unix epoch time after iter #39: 1580326121.22
+Iter #39: 174.6 img/sec per GPU
+Unix epoch time before iter #40: 1580326121.22
+Unix epoch time after iter #40: 1580326121.38
+Iter #40: 195.8 img/sec per GPU
+Unix epoch time before iter #41: 1580326121.38
+Unix epoch time after iter #41: 1580326121.54
+Iter #41: 199.0 img/sec per GPU
+Unix epoch time before iter #42: 1580326121.54
+Unix epoch time after iter #42: 1580326121.72
+Iter #42: 184.4 img/sec per GPU
+Unix epoch time before iter #43: 1580326121.72
+Unix epoch time after iter #43: 1580326121.88
+Iter #43: 201.6 img/sec per GPU
+Unix epoch time before iter #44: 1580326121.88
+Unix epoch time after iter #44: 1580326122.05
+Iter #44: 187.2 img/sec per GPU
+Unix epoch time before iter #45: 1580326122.05
+Unix epoch time after iter #45: 1580326122.23
+Iter #45: 174.2 img/sec per GPU
+Unix epoch time before iter #46: 1580326122.23
+Unix epoch time after iter #46: 1580326122.6
+Iter #46: 86.9 img/sec per GPU
+Unix epoch time before iter #47: 1580326122.6
+Unix epoch time after iter #47: 1580326122.75
+Iter #47: 213.6 img/sec per GPU
+Unix epoch time before iter #48: 1580326122.75
+Unix epoch time after iter #48: 1580326122.92
+Iter #48: 189.5 img/sec per GPU
+Unix epoch time before iter #49: 1580326122.92
+Unix epoch time after iter #49: 1580326123.27
+Iter #49: 89.7 img/sec per GPU
+Unix epoch time before iter #50: 1580326123.27
+Unix epoch time after iter #50: 1580326123.46
+Iter #50: 177.3 img/sec per GPU
+Unix epoch time before iter #51: 1580326123.46
+Unix epoch time after iter #51: 1580326123.62
+Iter #51: 199.1 img/sec per GPU
+Unix epoch time before iter #52: 1580326123.62
+Unix epoch time after iter #52: 1580326123.78
+Iter #52: 193.7 img/sec per GPU
+Unix epoch time before iter #53: 1580326123.78
+Unix epoch time after iter #53: 1580326123.95
+Iter #53: 186.2 img/sec per GPU
+Unix epoch time before iter #54: 1580326123.95
+Unix epoch time after iter #54: 1580326124.11
+Iter #54: 204.6 img/sec per GPU
+Unix epoch time before iter #55: 1580326124.11
+Unix epoch time after iter #55: 1580326124.27
+Iter #55: 197.2 img/sec per GPU
+Unix epoch time before iter #56: 1580326124.27
+Unix epoch time after iter #56: 1580326124.43
+Iter #56: 202.1 img/sec per GPU
+Unix epoch time before iter #57: 1580326124.43
+Unix epoch time after iter #57: 1580326124.62
+Iter #57: 170.4 img/sec per GPU
+Unix epoch time before iter #58: 1580326124.62
+Unix epoch time after iter #58: 1580326124.8
+Iter #58: 180.7 img/sec per GPU
+Unix epoch time before iter #59: 1580326124.8
+Unix epoch time after iter #59: 1580326124.96
+Iter #59: 201.6 img/sec per GPU
+Unix epoch time before iter #60: 1580326124.96
+Unix epoch time after iter #60: 1580326125.13
+Iter #60: 186.9 img/sec per GPU
+Unix epoch time before iter #61: 1580326125.13
+Unix epoch time after iter #61: 1580326125.31
+Iter #61: 176.3 img/sec per GPU
+Unix epoch time before iter #62: 1580326125.31
+Unix epoch time after iter #62: 1580326125.47
+Iter #62: 194.9 img/sec per GPU
+Unix epoch time before iter #63: 1580326125.47
+Unix epoch time after iter #63: 1580326125.64
+Iter #63: 196.0 img/sec per GPU
+Unix epoch time before iter #64: 1580326125.64
+Unix epoch time after iter #64: 1580326125.81
+Iter #64: 187.0 img/sec per GPU
+Unix epoch time before iter #65: 1580326125.81
+Unix epoch time after iter #65: 1580326125.98
+Iter #65: 187.1 img/sec per GPU
+Unix epoch time before iter #66: 1580326125.98
+Unix epoch time after iter #66: 1580326126.16
+Iter #66: 179.1 img/sec per GPU
+Unix epoch time before iter #67: 1580326126.16
+Unix epoch time after iter #67: 1580326126.31
+Iter #67: 210.2 img/sec per GPU
+Unix epoch time before iter #68: 1580326126.31
+Unix epoch time after iter #68: 1580326126.47
+Iter #68: 195.6 img/sec per GPU
+Unix epoch time before iter #69: 1580326126.47
+Unix epoch time after iter #69: 1580326126.63
+Iter #69: 207.1 img/sec per GPU
+Unix epoch time before iter #70: 1580326126.63
+Unix epoch time after iter #70: 1580326126.79
+Iter #70: 194.8 img/sec per GPU
+Unix epoch time before iter #71: 1580326126.79
+Unix epoch time after iter #71: 1580326127.17
+Iter #71: 84.8 img/sec per GPU
+Unix epoch time before iter #72: 1580326127.17
+Unix epoch time after iter #72: 1580326127.32
+Iter #72: 207.8 img/sec per GPU
+Unix epoch time before iter #73: 1580326127.32
+Unix epoch time after iter #73: 1580326127.51
+Iter #73: 171.2 img/sec per GPU
+Unix epoch time before iter #74: 1580326127.51
+Unix epoch time after iter #74: 1580326127.66
+Iter #74: 211.5 img/sec per GPU
+Unix epoch time before iter #75: 1580326127.66
+Unix epoch time after iter #75: 1580326127.84
+Iter #75: 178.1 img/sec per GPU
+Unix epoch time before iter #76: 1580326127.84
+Unix epoch time after iter #76: 1580326128.0
+Iter #76: 198.2 img/sec per GPU
+Unix epoch time before iter #77: 1580326128.0
+Unix epoch time after iter #77: 1580326128.17
+Iter #77: 197.2 img/sec per GPU
+Unix epoch time before iter #78: 1580326128.17
+Unix epoch time after iter #78: 1580326128.35
+Iter #78: 174.3 img/sec per GPU
+Unix epoch time before iter #79: 1580326128.35
+Unix epoch time after iter #79: 1580326128.53
+Iter #79: 182.1 img/sec per GPU
+Unix epoch time before iter #80: 1580326128.53
+Unix epoch time after iter #80: 1580326128.72
+Iter #80: 210.6 img/sec per GPU
+Unix epoch time before iter #81: 1580326128.72
+Unix epoch time after iter #81: 1580326128.9
+Iter #81: 177.3 img/sec per GPU
+Unix epoch time before iter #82: 1580326128.9
+Unix epoch time after iter #82: 1580326129.07
+Iter #82: 194.9 img/sec per GPU
+Unix epoch time before iter #83: 1580326129.07
+Unix epoch time after iter #83: 1580326129.23
+Iter #83: 202.2 img/sec per GPU
+Unix epoch time before iter #84: 1580326129.23
+Unix epoch time after iter #84: 1580326129.42
+Iter #84: 167.4 img/sec per GPU
+Unix epoch time before iter #85: 1580326129.42
+Unix epoch time after iter #85: 1580326129.59
+Iter #85: 182.9 img/sec per GPU
+Unix epoch time before iter #86: 1580326129.59
+Unix epoch time after iter #86: 1580326129.76
+Iter #86: 187.6 img/sec per GPU
+Unix epoch time before iter #87: 1580326129.76
+Unix epoch time after iter #87: 1580326129.92
+Iter #87: 202.2 img/sec per GPU
+Unix epoch time before iter #88: 1580326129.92
+Unix epoch time after iter #88: 1580326130.08
+Iter #88: 197.8 img/sec per GPU
+Unix epoch time before iter #89: 1580326130.08
+Unix epoch time after iter #89: 1580326130.24
+Iter #89: 208.2 img/sec per GPU
+Unix epoch time before iter #90: 1580326130.24
+Unix epoch time after iter #90: 1580326130.42
+Iter #90: 179.6 img/sec per GPU
+Unix epoch time before iter #91: 1580326130.42
+Unix epoch time after iter #91: 1580326130.58
+Iter #91: 196.1 img/sec per GPU
+Unix epoch time before iter #92: 1580326130.58
+Unix epoch time after iter #92: 1580326130.74
+Iter #92: 200.2 img/sec per GPU
+Unix epoch time before iter #93: 1580326130.74
+Unix epoch time after iter #93: 1580326130.91
+Iter #93: 184.1 img/sec per GPU
+Unix epoch time before iter #94: 1580326130.91
+Unix epoch time after iter #94: 1580326131.07
+Iter #94: 202.2 img/sec per GPU
+Unix epoch time before iter #95: 1580326131.07
+Unix epoch time after iter #95: 1580326131.26
+Iter #95: 174.2 img/sec per GPU
+Unix epoch time before iter #96: 1580326131.26
+Unix epoch time after iter #96: 1580326131.43
+Iter #96: 187.0 img/sec per GPU
+Unix epoch time before iter #97: 1580326131.43
+Unix epoch time after iter #97: 1580326131.59
+Iter #97: 202.1 img/sec per GPU
+Unix epoch time before iter #98: 1580326131.59
+Unix epoch time after iter #98: 1580326131.76
+Iter #98: 183.4 img/sec per GPU
+Unix epoch time before iter #99: 1580326131.76
+Unix epoch time after iter #99: 1580326131.92
+Iter #99: 202.4 img/sec per GPU
+Unix epoch time before iter #100: 1580326131.92
+Unix epoch time after iter #100: 1580326132.1
+Iter #100: 179.5 img/sec per GPU
+Unix epoch time before iter #101: 1580326132.1
+Unix epoch time after iter #101: 1580326132.28
+Iter #101: 178.7 img/sec per GPU
+Unix epoch time before iter #102: 1580326132.28
+Unix epoch time after iter #102: 1580326132.45
+Iter #102: 190.6 img/sec per GPU
+Unix epoch time before iter #103: 1580326132.45
+Unix epoch time after iter #103: 1580326132.61
+Iter #103: 189.9 img/sec per GPU
+Unix epoch time before iter #104: 1580326132.61
+Unix epoch time after iter #104: 1580326132.79
+Iter #104: 178.2 img/sec per GPU
+Unix epoch time before iter #105: 1580326132.79
+Unix epoch time after iter #105: 1580326132.96
+Iter #105: 193.8 img/sec per GPU
+Unix epoch time before iter #106: 1580326132.96
+Unix epoch time after iter #106: 1580326133.12
+Iter #106: 201.3 img/sec per GPU
+Unix epoch time before iter #107: 1580326133.12
+Unix epoch time after iter #107: 1580326133.28
+Iter #107: 194.9 img/sec per GPU
+Unix epoch time before iter #108: 1580326133.28
+Unix epoch time after iter #108: 1580326133.44
+Iter #108: 207.9 img/sec per GPU
+Unix epoch time before iter #109: 1580326133.44
+Unix epoch time after iter #109: 1580326133.62
+Iter #109: 177.4 img/sec per GPU
+Unix epoch time before iter #110: 1580326133.62
+Unix epoch time after iter #110: 1580326133.77
+Iter #110: 204.6 img/sec per GPU
+Unix epoch time before iter #111: 1580326133.77
+Unix epoch time after iter #111: 1580326133.96
+Iter #111: 174.4 img/sec per GPU
+Unix epoch time before iter #112: 1580326133.96
+Unix epoch time after iter #112: 1580326134.11
+Iter #112: 203.4 img/sec per GPU
+Unix epoch time before iter #113: 1580326134.11
+Unix epoch time after iter #113: 1580326134.29
+Iter #113: 177.8 img/sec per GPU
+Unix epoch time before iter #114: 1580326134.29
+Unix epoch time after iter #114: 1580326134.46
+Iter #114: 195.6 img/sec per GPU
+Unix epoch time before iter #115: 1580326134.46
+Unix epoch time after iter #115: 1580326134.62
+Iter #115: 193.9 img/sec per GPU
+Unix epoch time before iter #116: 1580326134.62
+Unix epoch time after iter #116: 1580326134.79
+Iter #116: 192.9 img/sec per GPU
+Unix epoch time before iter #117: 1580326134.79
+Unix epoch time after iter #117: 1580326134.96
+Iter #117: 186.7 img/sec per GPU
+Unix epoch time before iter #118: 1580326134.96
+Unix epoch time after iter #118: 1580326135.12
+Iter #118: 205.5 img/sec per GPU
+Unix epoch time before iter #119: 1580326135.12
+Unix epoch time after iter #119: 1580326135.28
+Iter #119: 199.0 img/sec per GPU
+Unix epoch time before iter #120: 1580326135.28
+Unix epoch time after iter #120: 1580326135.45
+Iter #120: 187.5 img/sec per GPU
+Unix epoch time before iter #121: 1580326135.45
+Unix epoch time after iter #121: 1580326135.63
+Iter #121: 173.6 img/sec per GPU
+Unix epoch time before iter #122: 1580326135.63
+Unix epoch time after iter #122: 1580326135.8
+Iter #122: 193.9 img/sec per GPU
+Unix epoch time before iter #123: 1580326135.8
+Unix epoch time after iter #123: 1580326135.95
+Iter #123: 211.0 img/sec per GPU
+Unix epoch time before iter #124: 1580326135.95
+Unix epoch time after iter #124: 1580326136.13
+Iter #124: 179.9 img/sec per GPU
+Unix epoch time before iter #125: 1580326136.13
+Unix epoch time after iter #125: 1580326136.3
+Iter #125: 183.9 img/sec per GPU
+Unix epoch time before iter #126: 1580326136.3
+Unix epoch time after iter #126: 1580326136.48
+Iter #126: 176.9 img/sec per GPU
+Unix epoch time before iter #127: 1580326136.48
+Unix epoch time after iter #127: 1580326136.65
+Iter #127: 191.9 img/sec per GPU
+Unix epoch time before iter #128: 1580326136.65
+Unix epoch time after iter #128: 1580326136.81
+Iter #128: 196.0 img/sec per GPU
+Unix epoch time before iter #129: 1580326136.81
+Unix epoch time after iter #129: 1580326136.98
+Iter #129: 193.5 img/sec per GPU
+Unix epoch time before iter #130: 1580326136.98
+Unix epoch time after iter #130: 1580326137.14
+Iter #130: 204.5 img/sec per GPU
+Unix epoch time before iter #131: 1580326137.14
+Unix epoch time after iter #131: 1580326137.29
+Iter #131: 203.0 img/sec per GPU
+Unix epoch time before iter #132: 1580326137.29
+Unix epoch time after iter #132: 1580326137.47
+Iter #132: 178.3 img/sec per GPU
+Unix epoch time before iter #133: 1580326137.47
+Unix epoch time after iter #133: 1580326137.63
+Iter #133: 207.6 img/sec per GPU
+Unix epoch time before iter #134: 1580326137.63
+Unix epoch time after iter #134: 1580326137.79
+Iter #134: 198.0 img/sec per GPU
+Unix epoch time before iter #135: 1580326137.79
+Unix epoch time after iter #135: 1580326137.97
+Iter #135: 178.7 img/sec per GPU
+Unix epoch time before iter #136: 1580326137.97
+Unix epoch time after iter #136: 1580326138.14
+Iter #136: 192.0 img/sec per GPU
+Unix epoch time before iter #137: 1580326138.14
+Unix epoch time after iter #137: 1580326138.32
+Iter #137: 175.3 img/sec per GPU
+Unix epoch time before iter #138: 1580326138.32
+Unix epoch time after iter #138: 1580326138.49
+Iter #138: 192.7 img/sec per GPU
+Unix epoch time before iter #139: 1580326138.49
+Unix epoch time after iter #139: 1580326138.67
+Iter #139: 170.8 img/sec per GPU
+Unix epoch time before iter #140: 1580326138.67
+Unix epoch time after iter #140: 1580326138.84
+Iter #140: 196.8 img/sec per GPU
+Unix epoch time before iter #141: 1580326138.84
+Unix epoch time after iter #141: 1580326139.01
+Iter #141: 185.2 img/sec per GPU
+Unix epoch time before iter #142: 1580326139.01
+Unix epoch time after iter #142: 1580326139.2
+Iter #142: 168.9 img/sec per GPU
+Unix epoch time before iter #143: 1580326139.2
+Unix epoch time after iter #143: 1580326139.36
+Iter #143: 204.8 img/sec per GPU
+Unix epoch time before iter #144: 1580326139.36
+Unix epoch time after iter #144: 1580326139.52
+Iter #144: 194.1 img/sec per GPU
+Unix epoch time before iter #145: 1580326139.52
+Unix epoch time after iter #145: 1580326139.68
+Iter #145: 201.4 img/sec per GPU
+Unix epoch time before iter #146: 1580326139.68
+Unix epoch time after iter #146: 1580326139.86
+Iter #146: 177.9 img/sec per GPU
+Unix epoch time before iter #147: 1580326139.86
+Unix epoch time after iter #147: 1580326140.04
+Iter #147: 174.8 img/sec per GPU
+Unix epoch time before iter #148: 1580326140.04
+Unix epoch time after iter #148: 1580326140.42
+Iter #148: 85.9 img/sec per GPU
+Unix epoch time before iter #149: 1580326140.42
+Unix epoch time after iter #149: 1580326140.57
+Iter #149: 201.8 img/sec per GPU
+Unix epoch time before iter #150: 1580326140.57
+Unix epoch time after iter #150: 1580326140.74
+Iter #150: 197.6 img/sec per GPU
+Unix epoch time before iter #151: 1580326140.74
+Unix epoch time after iter #151: 1580326140.91
+Iter #151: 180.0 img/sec per GPU
+Unix epoch time before iter #152: 1580326140.91
+Unix epoch time after iter #152: 1580326141.1
+Iter #152: 170.1 img/sec per GPU
+Unix epoch time before iter #153: 1580326141.1
+Unix epoch time after iter #153: 1580326141.26
+Iter #153: 198.4 img/sec per GPU
+Unix epoch time before iter #154: 1580326141.26
+Unix epoch time after iter #154: 1580326141.48
+Iter #154: 151.7 img/sec per GPU
+Unix epoch time before iter #155: 1580326141.48
+Unix epoch time after iter #155: 1580326141.64
+Iter #155: 193.5 img/sec per GPU
+Unix epoch time before iter #156: 1580326141.64
+Unix epoch time after iter #156: 1580326141.81
+Iter #156: 190.6 img/sec per GPU
+Unix epoch time before iter #157: 1580326141.81
+Unix epoch time after iter #157: 1580326141.96
+Iter #157: 206.7 img/sec per GPU
+Unix epoch time before iter #158: 1580326141.96
+Unix epoch time after iter #158: 1580326142.15
+Iter #158: 168.4 img/sec per GPU
+Unix epoch time before iter #159: 1580326142.15
+Unix epoch time after iter #159: 1580326142.32
+Iter #159: 193.8 img/sec per GPU
+Unix epoch time before iter #160: 1580326142.32
+Unix epoch time after iter #160: 1580326142.48
+Iter #160: 196.3 img/sec per GPU
+Unix epoch time before iter #161: 1580326142.48
+Unix epoch time after iter #161: 1580326142.65
+Iter #161: 189.3 img/sec per GPU
+Unix epoch time before iter #162: 1580326142.65
+Unix epoch time after iter #162: 1580326142.82
+Iter #162: 188.0 img/sec per GPU
+Unix epoch time before iter #163: 1580326142.82
+Unix epoch time after iter #163: 1580326142.99
+Iter #163: 188.5 img/sec per GPU
+Unix epoch time before iter #164: 1580326142.99
+Unix epoch time after iter #164: 1580326143.16
+Iter #164: 194.2 img/sec per GPU
+Unix epoch time before iter #165: 1580326143.16
+Unix epoch time after iter #165: 1580326143.34
+Iter #165: 171.7 img/sec per GPU
+Unix epoch time before iter #166: 1580326143.34
+Unix epoch time after iter #166: 1580326143.5
+Iter #166: 204.6 img/sec per GPU
+Unix epoch time before iter #167: 1580326143.5
+Unix epoch time after iter #167: 1580326143.67
+Iter #167: 187.1 img/sec per GPU
+Unix epoch time before iter #168: 1580326143.67
+Unix epoch time after iter #168: 1580326143.84
+Iter #168: 188.9 img/sec per GPU
+Unix epoch time before iter #169: 1580326143.84
+Unix epoch time after iter #169: 1580326144.01
+Iter #169: 184.7 img/sec per GPU
+Unix epoch time before iter #170: 1580326144.01
+Unix epoch time after iter #170: 1580326144.2
+Iter #170: 171.5 img/sec per GPU
+Unix epoch time before iter #171: 1580326144.2
+Unix epoch time after iter #171: 1580326144.36
+Iter #171: 203.1 img/sec per GPU
+Unix epoch time before iter #172: 1580326144.36
+Unix epoch time after iter #172: 1580326144.52
+Iter #172: 193.5 img/sec per GPU
+Unix epoch time before iter #173: 1580326144.52
+Unix epoch time after iter #173: 1580326144.71
+Iter #173: 175.6 img/sec per GPU
+Unix epoch time before iter #174: 1580326144.71
+Unix epoch time after iter #174: 1580326144.87
+Iter #174: 193.6 img/sec per GPU
+Unix epoch time before iter #175: 1580326144.87
+Unix epoch time after iter #175: 1580326145.04
+Iter #175: 190.6 img/sec per GPU
+Unix epoch time before iter #176: 1580326145.04
+Unix epoch time after iter #176: 1580326145.21
+Iter #176: 184.8 img/sec per GPU
+Unix epoch time before iter #177: 1580326145.21
+Unix epoch time after iter #177: 1580326145.39
+Iter #177: 184.2 img/sec per GPU
+Unix epoch time before iter #178: 1580326145.39
+Unix epoch time after iter #178: 1580326145.56
+Iter #178: 190.8 img/sec per GPU
+Unix epoch time before iter #179: 1580326145.56
+Unix epoch time after iter #179: 1580326145.74
+Iter #179: 171.4 img/sec per GPU
+Unix epoch time before iter #180: 1580326145.74
+Unix epoch time after iter #180: 1580326145.89
+Iter #180: 210.8 img/sec per GPU
+Unix epoch time before iter #181: 1580326145.89
+Unix epoch time after iter #181: 1580326146.05
+Iter #181: 201.0 img/sec per GPU
+Unix epoch time before iter #182: 1580326146.05
+Unix epoch time after iter #182: 1580326146.22
+Iter #182: 195.3 img/sec per GPU
+Unix epoch time before iter #183: 1580326146.22
+Unix epoch time after iter #183: 1580326146.39
+Iter #183: 182.6 img/sec per GPU
+Unix epoch time before iter #184: 1580326146.39
+Unix epoch time after iter #184: 1580326146.56
+Iter #184: 190.5 img/sec per GPU
+Unix epoch time before iter #185: 1580326146.56
+Unix epoch time after iter #185: 1580326146.72
+Iter #185: 197.3 img/sec per GPU
+Unix epoch time before iter #186: 1580326146.72
+Unix epoch time after iter #186: 1580326146.89
+Iter #186: 196.2 img/sec per GPU
+Unix epoch time before iter #187: 1580326146.89
+Unix epoch time after iter #187: 1580326147.06
+Iter #187: 187.9 img/sec per GPU
+Unix epoch time before iter #188: 1580326147.06
+Unix epoch time after iter #188: 1580326147.22
+Iter #188: 195.7 img/sec per GPU
+Unix epoch time before iter #189: 1580326147.22
+Unix epoch time after iter #189: 1580326147.38
+Iter #189: 199.8 img/sec per GPU
+Unix epoch time before iter #190: 1580326147.38
+Unix epoch time after iter #190: 1580326147.57
+Iter #190: 167.0 img/sec per GPU
+Unix epoch time before iter #191: 1580326147.57
+Unix epoch time after iter #191: 1580326147.74
+Iter #191: 196.0 img/sec per GPU
+Unix epoch time before iter #192: 1580326147.74
+Unix epoch time after iter #192: 1580326147.9
+Iter #192: 197.0 img/sec per GPU
+Unix epoch time before iter #193: 1580326147.9
+Unix epoch time after iter #193: 1580326148.06
+Iter #193: 194.5 img/sec per GPU
+Unix epoch time before iter #194: 1580326148.06
+Unix epoch time after iter #194: 1580326148.23
+Iter #194: 194.3 img/sec per GPU
+Unix epoch time before iter #195: 1580326148.23
+Unix epoch time after iter #195: 1580326148.42
+Iter #195: 170.0 img/sec per GPU
+Unix epoch time before iter #196: 1580326148.42
+Unix epoch time after iter #196: 1580326148.58
+Iter #196: 198.5 img/sec per GPU
+Unix epoch time before iter #197: 1580326148.58
+Unix epoch time after iter #197: 1580326148.76
+Iter #197: 181.1 img/sec per GPU
+Unix epoch time before iter #198: 1580326148.76
+Unix epoch time after iter #198: 1580326148.91
+Iter #198: 201.8 img/sec per GPU
+Unix epoch time before iter #199: 1580326148.91
+Unix epoch time after iter #199: 1580326149.11
+Iter #199: 163.3 img/sec per GPU
+Img/sec per GPU: 185.7 +-47.8
+Total img/sec on 16 GPU(s): 2970.7 +-765.0
+[D] Server Closed
