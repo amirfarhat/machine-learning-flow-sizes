@@ -35,7 +35,6 @@ mkdir -p cachenet_experiments/vgg19/filtered_dumps
 mkdir -p cachenet_experiments/vgg19/flow_pickles
 mkdir -p cachenet_experiments/vgg19/flow_pickles/slice
 mkdir -p cachenet_experiments/vgg19/flow_pickles/squeeze
-mkdir -p cachenet_experiments/vgg19/flow_pickles/squeeze
 mkdir -p cachenet_experiments/vgg19/flow_cdfs
 
 # scp training iteration times
@@ -58,6 +57,12 @@ tcptrace -bl cachenet_experiments/vgg19/tcpdumps/vgg19_iters200_vm39.pcap > cach
 tcptrace -bl cachenet_experiments/vgg19/tcpdumps/vgg19_iters200_vm40.pcap > cachenet_experiments/vgg19/tcptraces/vgg19_iters200_vm40.trace
 tcptrace -bl cachenet_experiments/vgg19/tcpdumps/vgg19_iters200_vm41.pcap > cachenet_experiments/vgg19/tcptraces/vgg19_iters200_vm41.trace
 tcptrace -bl cachenet_experiments/vgg19/tcpdumps/vgg19_iters200_vm42.pcap > cachenet_experiments/vgg19/tcptraces/vgg19_iters200_vm42.trace
+
+# print summary of the flow size for only the flows we care about
+python3 read_tcptrace.py -t cachenet_experiments/vgg19/tcptraces/vgg19_iters200_vm39.trace
+python3 read_tcptrace.py -t cachenet_experiments/vgg19/tcptraces/vgg19_iters200_vm40.trace
+python3 read_tcptrace.py -t cachenet_experiments/vgg19/tcptraces/vgg19_iters200_vm41.trace
+python3 read_tcptrace.py -t cachenet_experiments/vgg19/tcptraces/vgg19_iters200_vm42
 
 # read the dump file to get only packet sizes
 gtime tcpdump -tt -n -r cachenet_experiments/vgg19/tcpdumps/vgg19_iters200_vm39.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > cachenet_experiments/vgg19/filtered_dumps/vgg19_iters200_vm39.txt
