@@ -54,16 +54,16 @@ python3 analyze_iterations.py -f cachenet_experiments/resnet50/iterations_resnet
 # ---------------------- STEP 5: on local machine
 
 # run tcptrace on the dumps to get human-readable tcp flow information
-tcptrace -bl tcpdumps/resnet50_iters200_vm39.pcap > tcptraces/resnet50_iters200_vm39.trace
-tcptrace -bl tcpdumps/resnet50_iters200_vm40.pcap > tcptraces/resnet50_iters200_vm40.trace
-tcptrace -bl tcpdumps/resnet50_iters200_vm41.pcap > tcptraces/resnet50_iters200_vm41.trace
-tcptrace -bl tcpdumps/resnet50_iters200_vm42.pcap > tcptraces/resnet50_iters200_vm42.trace
+tcptrace -bl cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm39.pcap > cachenet_experiments/resnet50/tcptraces/resnet50_iters200_vm39.trace
+tcptrace -bl cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm40.pcap > cachenet_experiments/resnet50/tcptraces/resnet50_iters200_vm40.trace
+tcptrace -bl cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm41.pcap > cachenet_experiments/resnet50/tcptraces/resnet50_iters200_vm41.trace
+tcptrace -bl cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm42.pcap > cachenet_experiments/resnet50/tcptraces/resnet50_iters200_vm42.trace
 
 # read the dump file to get only packet sizes
-gtime tcpdump -tt -n -r tcpdumps/resnet50_iters200_vm39.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > filtered_dumps/resnet50_iters200_vm39.txt
-gtime tcpdump -tt -n -r tcpdumps/resnet50_iters200_vm40.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > filtered_dumps/resnet50_iters200_vm40.txt
-gtime tcpdump -tt -n -r tcpdumps/resnet50_iters200_vm41.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > filtered_dumps/resnet50_iters200_vm41.txt
-gtime tcpdump -tt -n -r tcpdumps/resnet50_iters200_vm42.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > filtered_dumps/resnet50_iters200_vm42.txt
+gtime tcpdump -tt -n -r cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm39.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > cachenet_experiments/resnet50/filtered_dumps/resnet50_iters200_vm39.txt
+gtime tcpdump -tt -n -r cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm40.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > cachenet_experiments/resnet50/filtered_dumps/resnet50_iters200_vm40.txt
+gtime tcpdump -tt -n -r cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm41.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > cachenet_experiments/resnet50/filtered_dumps/resnet50_iters200_vm41.txt
+gtime tcpdump -tt -n -r cachenet_experiments/resnet50/tcpdumps/resnet50_iters200_vm42.pcap | awk '{print $1," ",$3," ",$5," ",$(NF-1)," ",$NF}' > cachenet_experiments/resnet50/filtered_dumps/resnet50_iters200_vm42.txt
 
 
 # ---------------------- STEP 6: on local machine
