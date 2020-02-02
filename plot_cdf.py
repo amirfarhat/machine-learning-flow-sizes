@@ -1,8 +1,6 @@
 import collections
 import matplotlib.pyplot as plt
 
-values = [1,2,3,4,5,5,5,5,6]
-
 def add_cdf_to_plot(values, plt=None):
 	# count frequency of items
 	counter = collections.Counter(values)
