@@ -1,0 +1,740 @@
+[W] /tmp/kungfu-run-10000.sock already exists for 1m8.550160431s, trying to remove
+Loading checkpoint models/774M/model.ckpt
+Loading dataset...
+dataset has 338025 tokens
+Training...
+Unix epoch time before iter #1: 1580590732.114243
+[1 | 63.56] loss=3.78 avg=3.78
+Unix epoch time after iter #1: 1580590795.6777837
+Unix epoch time before iter #2: 1580590795.6777995
+[2 | 67.45] loss=3.66 avg=3.72
+Unix epoch time after iter #2: 1580590799.5654833
+Unix epoch time before iter #3: 1580590799.5655012
+[3 | 71.23] loss=3.60 avg=3.68
+Unix epoch time after iter #3: 1580590803.346544
+Unix epoch time before iter #4: 1580590803.3465612
+[4 | 75.05] loss=3.61 avg=3.66
+Unix epoch time after iter #4: 1580590807.1682067
+Unix epoch time before iter #5: 1580590807.168238
+[5 | 78.89] loss=3.24 avg=3.58
+Unix epoch time after iter #5: 1580590811.0070603
+Unix epoch time before iter #6: 1580590811.0070803
+[6 | 82.82] loss=3.32 avg=3.53
+Unix epoch time after iter #6: 1580590814.9315195
+Unix epoch time before iter #7: 1580590814.9315438
+[7 | 86.47] loss=3.37 avg=3.51
+Unix epoch time after iter #7: 1580590818.5806122
+Unix epoch time before iter #8: 1580590818.580628
+[8 | 90.30] loss=2.92 avg=3.43
+Unix epoch time after iter #8: 1580590822.4164867
+Unix epoch time before iter #9: 1580590822.4165232
+[9 | 94.01] loss=3.42 avg=3.43
+Unix epoch time after iter #9: 1580590826.1263769
+Unix epoch time before iter #10: 1580590826.1264143
+[10 | 97.68] loss=2.85 avg=3.37
+Unix epoch time after iter #10: 1580590829.797597
+Unix epoch time before iter #11: 1580590829.7976134
+[11 | 101.68] loss=3.19 avg=3.35
+Unix epoch time after iter #11: 1580590833.791786
+Unix epoch time before iter #12: 1580590833.7918067
+[12 | 105.44] loss=3.49 avg=3.37
+Unix epoch time after iter #12: 1580590837.5534298
+Unix epoch time before iter #13: 1580590837.5535946
+[13 | 109.27] loss=3.09 avg=3.34
+Unix epoch time after iter #13: 1580590841.3854556
+Unix epoch time before iter #14: 1580590841.3854718
+[14 | 113.16] loss=3.10 avg=3.32
+Unix epoch time after iter #14: 1580590845.2724566
+Unix epoch time before iter #15: 1580590845.2724717
+[15 | 117.03] loss=3.37 avg=3.33
+Unix epoch time after iter #15: 1580590849.1428483
+Unix epoch time before iter #16: 1580590849.143024
+[16 | 120.75] loss=3.31 avg=3.33
+Unix epoch time after iter #16: 1580590852.8595078
+Unix epoch time before iter #17: 1580590852.8595266
+[17 | 124.52] loss=3.19 avg=3.32
+Unix epoch time after iter #17: 1580590856.6377146
+Unix epoch time before iter #18: 1580590856.6377368
+[18 | 128.34] loss=2.93 avg=3.29
+Unix epoch time after iter #18: 1580590860.456147
+Unix epoch time before iter #19: 1580590860.4561634
+[19 | 132.29] loss=2.66 avg=3.26
+Unix epoch time after iter #19: 1580590864.4078975
+Unix epoch time before iter #20: 1580590864.407925
+[20 | 136.03] loss=2.83 avg=3.23
+Unix epoch time after iter #20: 1580590868.1444135
+Unix epoch time before iter #21: 1580590868.1444283
+[21 | 139.80] loss=2.95 avg=3.22
+Unix epoch time after iter #21: 1580590871.9114783
+Unix epoch time before iter #22: 1580590871.9114947
+[22 | 143.59] loss=2.97 avg=3.21
+Unix epoch time after iter #22: 1580590875.7066011
+Unix epoch time before iter #23: 1580590875.706618
+[23 | 147.38] loss=2.71 avg=3.18
+Unix epoch time after iter #23: 1580590879.491758
+Unix epoch time before iter #24: 1580590879.491786
+[24 | 151.27] loss=2.91 avg=3.17
+Unix epoch time after iter #24: 1580590883.3805122
+Unix epoch time before iter #25: 1580590883.380523
+[25 | 155.22] loss=2.76 avg=3.15
+Unix epoch time after iter #25: 1580590887.3332005
+Unix epoch time before iter #26: 1580590887.333374
+[26 | 159.02] loss=3.14 avg=3.15
+Unix epoch time after iter #26: 1580590891.129604
+Unix epoch time before iter #27: 1580590891.129629
+[27 | 162.72] loss=2.71 avg=3.13
+Unix epoch time after iter #27: 1580590894.8324432
+Unix epoch time before iter #28: 1580590894.8324637
+[28 | 166.54] loss=2.64 avg=3.11
+Unix epoch time after iter #28: 1580590898.6494436
+Unix epoch time before iter #29: 1580590898.6494567
+[29 | 170.48] loss=3.12 avg=3.11
+Unix epoch time after iter #29: 1580590902.592167
+Unix epoch time before iter #30: 1580590902.5921814
+[30 | 174.26] loss=3.38 avg=3.12
+Unix epoch time after iter #30: 1580590906.3754432
+Unix epoch time before iter #31: 1580590906.3754625
+[31 | 178.10] loss=2.44 avg=3.10
+Unix epoch time after iter #31: 1580590910.2104712
+Unix epoch time before iter #32: 1580590910.210487
+[32 | 181.84] loss=2.77 avg=3.08
+Unix epoch time after iter #32: 1580590913.9556868
+Unix epoch time before iter #33: 1580590913.9557023
+[33 | 185.95] loss=2.72 avg=3.07
+Unix epoch time after iter #33: 1580590918.0631695
+Unix epoch time before iter #34: 1580590918.0631914
+[34 | 189.69] loss=2.65 avg=3.06
+Unix epoch time after iter #34: 1580590921.8059084
+Unix epoch time before iter #35: 1580590921.8059247
+[35 | 193.61] loss=2.60 avg=3.04
+Unix epoch time after iter #35: 1580590925.7197156
+Unix epoch time before iter #36: 1580590925.7197375
+[36 | 197.17] loss=2.77 avg=3.03
+Unix epoch time after iter #36: 1580590929.2871795
+Unix epoch time before iter #37: 1580590929.287209
+[37 | 201.13] loss=2.23 avg=3.01
+Unix epoch time after iter #37: 1580590933.2411616
+Unix epoch time before iter #38: 1580590933.2411802
+[38 | 204.96] loss=2.62 avg=2.99
+Unix epoch time after iter #38: 1580590937.0779479
+Unix epoch time before iter #39: 1580590937.0779638
+[39 | 208.71] loss=2.45 avg=2.98
+Unix epoch time after iter #39: 1580590940.824402
+Unix epoch time before iter #40: 1580590940.8244164
+[40 | 212.69] loss=2.03 avg=2.95
+Unix epoch time after iter #40: 1580590944.8062932
+Unix epoch time before iter #41: 1580590944.8063111
+[41 | 216.64] loss=2.97 avg=2.95
+Unix epoch time after iter #41: 1580590948.7520463
+Unix epoch time before iter #42: 1580590948.7520628
+[42 | 220.50] loss=2.38 avg=2.93
+Unix epoch time after iter #42: 1580590952.6108031
+Unix epoch time before iter #43: 1580590952.6108186
+[43 | 224.26] loss=2.40 avg=2.92
+Unix epoch time after iter #43: 1580590956.3792284
+Unix epoch time before iter #44: 1580590956.3792725
+[44 | 228.13] loss=3.02 avg=2.92
+Unix epoch time after iter #44: 1580590960.243631
+Unix epoch time before iter #45: 1580590960.243646
+[45 | 231.89] loss=2.32 avg=2.90
+Unix epoch time after iter #45: 1580590964.006483
+Unix epoch time before iter #46: 1580590964.0064988
+[46 | 235.64] loss=2.70 avg=2.90
+Unix epoch time after iter #46: 1580590967.7528884
+Unix epoch time before iter #47: 1580590967.7528987
+[47 | 239.39] loss=2.43 avg=2.89
+Unix epoch time after iter #47: 1580590971.5041358
+Unix epoch time before iter #48: 1580590971.504172
+[48 | 243.19] loss=2.42 avg=2.87
+Unix epoch time after iter #48: 1580590975.3050022
+Unix epoch time before iter #49: 1580590975.3050184
+[49 | 247.07] loss=2.82 avg=2.87
+Unix epoch time after iter #49: 1580590979.1812572
+Unix epoch time before iter #50: 1580590979.181271
+[50 | 251.03] loss=1.92 avg=2.85
+Unix epoch time after iter #50: 1580590983.141305
+Unix epoch time before iter #51: 1580590983.14132
+[51 | 254.85] loss=2.22 avg=2.83
+Unix epoch time after iter #51: 1580590986.9687173
+Unix epoch time before iter #52: 1580590986.9687374
+[52 | 258.65] loss=2.52 avg=2.83
+Unix epoch time after iter #52: 1580590990.7659612
+Unix epoch time before iter #53: 1580590990.765978
+[53 | 262.43] loss=2.51 avg=2.82
+Unix epoch time after iter #53: 1580590994.5419855
+Unix epoch time before iter #54: 1580590994.5420012
+[54 | 266.31] loss=2.26 avg=2.80
+Unix epoch time after iter #54: 1580590998.4223068
+Unix epoch time before iter #55: 1580590998.4223435
+[55 | 270.09] loss=2.10 avg=2.79
+Unix epoch time after iter #55: 1580591002.2048965
+Unix epoch time before iter #56: 1580591002.2049139
+[56 | 273.91] loss=1.99 avg=2.77
+Unix epoch time after iter #56: 1580591006.0291378
+Unix epoch time before iter #57: 1580591006.0291545
+[57 | 277.78] loss=2.66 avg=2.77
+Unix epoch time after iter #57: 1580591009.8900452
+Unix epoch time before iter #58: 1580591009.8900573
+[58 | 281.49] loss=2.07 avg=2.75
+Unix epoch time after iter #58: 1580591013.6038897
+Unix epoch time before iter #59: 1580591013.6039023
+[59 | 285.39] loss=1.79 avg=2.73
+Unix epoch time after iter #59: 1580591017.5090482
+Unix epoch time before iter #60: 1580591017.5090642
+[60 | 289.15] loss=2.25 avg=2.72
+Unix epoch time after iter #60: 1580591021.2618775
+Unix epoch time before iter #61: 1580591021.2618928
+[61 | 293.09] loss=1.94 avg=2.70
+Unix epoch time after iter #61: 1580591025.204383
+Unix epoch time before iter #62: 1580591025.2044036
+[62 | 296.91] loss=2.01 avg=2.69
+Unix epoch time after iter #62: 1580591029.0234494
+Unix epoch time before iter #63: 1580591029.0234663
+[63 | 300.78] loss=2.10 avg=2.67
+Unix epoch time after iter #63: 1580591032.8966987
+Unix epoch time before iter #64: 1580591032.8967147
+[64 | 304.65] loss=1.94 avg=2.66
+Unix epoch time after iter #64: 1580591036.7614138
+Unix epoch time before iter #65: 1580591036.761426
+[65 | 308.51] loss=1.78 avg=2.64
+Unix epoch time after iter #65: 1580591040.6235318
+Unix epoch time before iter #66: 1580591040.6235468
+[66 | 312.23] loss=1.48 avg=2.62
+Unix epoch time after iter #66: 1580591044.3451138
+Unix epoch time before iter #67: 1580591044.3451438
+[67 | 316.16] loss=1.87 avg=2.60
+Unix epoch time after iter #67: 1580591048.2741652
+Unix epoch time before iter #68: 1580591048.274184
+[68 | 320.05] loss=2.04 avg=2.59
+Unix epoch time after iter #68: 1580591052.1627367
+Unix epoch time before iter #69: 1580591052.1627522
+[69 | 323.75] loss=1.88 avg=2.58
+Unix epoch time after iter #69: 1580591055.861945
+Unix epoch time before iter #70: 1580591055.861963
+[70 | 327.56] loss=1.22 avg=2.55
+Unix epoch time after iter #70: 1580591059.6729162
+Unix epoch time before iter #71: 1580591059.6729314
+[71 | 331.43] loss=1.64 avg=2.53
+Unix epoch time after iter #71: 1580591063.5452225
+Unix epoch time before iter #72: 1580591063.5452416
+[72 | 335.49] loss=2.15 avg=2.52
+Unix epoch time after iter #72: 1580591067.608962
+Unix epoch time before iter #73: 1580591067.608978
+[73 | 339.33] loss=1.53 avg=2.50
+Unix epoch time after iter #73: 1580591071.44408
+Unix epoch time before iter #74: 1580591071.444111
+[74 | 343.22] loss=1.23 avg=2.48
+Unix epoch time after iter #74: 1580591075.3323336
+Unix epoch time before iter #75: 1580591075.3323483
+[75 | 346.96] loss=1.67 avg=2.47
+Unix epoch time after iter #75: 1580591079.0709584
+Unix epoch time before iter #76: 1580591079.0709863
+[76 | 350.83] loss=1.44 avg=2.45
+Unix epoch time after iter #76: 1580591082.941822
+Unix epoch time before iter #77: 1580591082.9418378
+[77 | 354.63] loss=1.32 avg=2.43
+Unix epoch time after iter #77: 1580591086.74706
+Unix epoch time before iter #78: 1580591086.7470756
+[78 | 358.50] loss=2.03 avg=2.42
+Unix epoch time after iter #78: 1580591090.6142232
+Unix epoch time before iter #79: 1580591090.6142385
+[79 | 362.31] loss=2.16 avg=2.41
+Unix epoch time after iter #79: 1580591094.423119
+Unix epoch time before iter #80: 1580591094.4231343
+[80 | 366.04] loss=1.52 avg=2.40
+Unix epoch time after iter #80: 1580591098.1509612
+Unix epoch time before iter #81: 1580591098.1509764
+[81 | 369.91] loss=1.27 avg=2.38
+Unix epoch time after iter #81: 1580591102.029235
+Unix epoch time before iter #82: 1580591102.029254
+[82 | 373.83] loss=2.02 avg=2.37
+Unix epoch time after iter #82: 1580591105.9418287
+Unix epoch time before iter #83: 1580591105.941848
+[83 | 377.53] loss=1.02 avg=2.35
+Unix epoch time after iter #83: 1580591109.6426158
+Unix epoch time before iter #84: 1580591109.642631
+[84 | 381.37] loss=0.85 avg=2.32
+Unix epoch time after iter #84: 1580591113.4813735
+Unix epoch time before iter #85: 1580591113.4813886
+[85 | 385.25] loss=0.83 avg=2.29
+Unix epoch time after iter #85: 1580591117.368584
+Unix epoch time before iter #86: 1580591117.3686
+[86 | 389.17] loss=0.88 avg=2.27
+Unix epoch time after iter #86: 1580591121.2876835
+Unix epoch time before iter #87: 1580591121.2877
+[87 | 392.98] loss=1.76 avg=2.26
+Unix epoch time after iter #87: 1580591125.0951297
+Unix epoch time before iter #88: 1580591125.0951462
+[88 | 396.81] loss=1.37 avg=2.25
+Unix epoch time after iter #88: 1580591128.9225516
+Unix epoch time before iter #89: 1580591128.9225829
+[89 | 400.70] loss=0.95 avg=2.22
+Unix epoch time after iter #89: 1580591132.8168705
+Unix epoch time before iter #90: 1580591132.8168845
+[90 | 404.64] loss=1.41 avg=2.21
+Unix epoch time after iter #90: 1580591136.7495108
+Unix epoch time before iter #91: 1580591136.7495255
+[91 | 408.35] loss=0.83 avg=2.19
+Unix epoch time after iter #91: 1580591140.460958
+Unix epoch time before iter #92: 1580591140.4609728
+[92 | 412.19] loss=2.10 avg=2.19
+Unix epoch time after iter #92: 1580591144.3064837
+Unix epoch time before iter #93: 1580591144.3064995
+[93 | 416.02] loss=0.87 avg=2.16
+Unix epoch time after iter #93: 1580591148.1342418
+Unix epoch time before iter #94: 1580591148.1342564
+[94 | 419.89] loss=1.30 avg=2.15
+Unix epoch time after iter #94: 1580591152.0073612
+Unix epoch time before iter #95: 1580591152.007377
+[95 | 423.63] loss=1.50 avg=2.14
+Unix epoch time after iter #95: 1580591155.7488916
+Unix epoch time before iter #96: 1580591155.7489066
+[96 | 427.35] loss=0.58 avg=2.11
+Unix epoch time after iter #96: 1580591159.4660742
+Unix epoch time before iter #97: 1580591159.4661326
+[97 | 431.08] loss=0.71 avg=2.09
+Unix epoch time after iter #97: 1580591163.19686
+Unix epoch time before iter #98: 1580591163.1968756
+[98 | 434.89] loss=0.98 avg=2.07
+Unix epoch time after iter #98: 1580591167.0052993
+Unix epoch time before iter #99: 1580591167.0053146
+[99 | 438.71] loss=0.86 avg=2.05
+Unix epoch time after iter #99: 1580591170.8221624
+Unix epoch time before iter #100: 1580591170.8221803
+[100 | 442.44] loss=0.59 avg=2.03
+Unix epoch time after iter #100: 1580591174.5532255
+======== SAMPLE 1 ========
+Thieth all, let a man be
+HASTILY DIVIDED: and for my pains 'twixt yonder
+and this, one 'levens on my companion.
+
+ANGELO:
+O me! this is dangerous playing,
+Which more wounds the innocent breast of virtue,
+Than much drinking in debauch.
+
+VOLUMNIA:
+More dangerous playing, more deadly debauch!
+
+MERCUTIO:
+Then give credit to these young fellows;
+Which have indeed good success: but 'tis moonshine
+To catch the most drunken drabs.
+
+CAMILLO:
+I would I were in Montague,
+To assist these young fellows;
+For 'tis there many a night
+They come to mend drunken cups.
+
+VALERIA:
+There is nothing new under the sun.
+
+Camillo, come forth!
+
+First Servant:
+O good lady,
+Go to these fellows, press them to your loving bosoms;
+And talk of their loves and dear lasses;
+What it was that seduced and blight'd
+The goodly days of thy young happiness;
+What trades and how they flourished and died,
+Tell them, with a heart-felt repentance,
+How far back the sorrow came and still it lingers.
+
+VIRGILIA:
+With all our hearts, dear sir, it is with joy
+We mend our cups and give thankfulness for them
+Which should be thankless yet ourselves.
+
+CAMILLO:
+O good lady,
+Take this mendicant stock: if he may make
+You joy in his remembrances, give him
+The paper which that heart would impart.
+
+VIRGILIA:
+I will do as thou bade, and be strong
+To-morrow for him and for thy good:
+So be it.
+
+Second Servant:
+Please you, good gent, take this cup from
+Thy finger and give it to him; he is mine,
+And I will take this cup from thine,
+Although thy hand be on the writing-up.
+
+VIRGILIA:
+What say'st thou, that I should thank thee?
+
+First Servant:
+For your kindnesses, lady: and for this cup,
+Though it be the property of another, keep it.
+
+VIRGILIA:
+That the poor stock's name yet remain in
+The language of cup and paper,
+He may learn to call himself happiness.
+
+VOLUMNIA:
+The heavens offer you both light and joy!
+
+CAMILLO:
+The ladies of all nations, bring us their plumes.
+
+LUCENTIO:
+To all, with most gracious thankfulness,
+Let the tradeswoman speak: the which, I swear,
+I have seen, none other hence could have flown.
+
+MENENIUS:
+Pray you, carry your plumes with you.
+
+VOLUMNIA:
+I will boast of you upon my tongue.
+
+MENENIUS:
+And after that, 'very well met,
+As well apparell'd and as fair as any
+Of our self-touching world.'
+
+VIRGILIA:
+Thank you, sir. My name is Virtue.
+
+COMINIUS:
+Now, well met,
+Our own. Myself am the general: in thee I spy
+Our best breeding, and thine of your good bringing up,
+Of all our colony.
+
+MENENIUS:
+Pitchers were beaten out of us the first day;--that is,
+Ourselves and our best gentlemen, if you please.
+Pray you, bring your point home: you have soundly argued;
+I agree with you in everything.
+
+First Senator:
+Let's hear:
+And is the cause that we are come together?
+
+MENENIUS:
+You have made a gracious offering of yourself,
+That will last for your lives. You have not only
+Learned the dangers and the pleasures of your trade,
+Nor added much years to your frame:
+But, most pound'd, you are touch'd, that is,
+Your bodily strength is touch'd. You have made yourself
+A man of the world: you are welcome to't.
+
+COMINIUS:
+You have certainly kept your word; the which I
+Have carried to, I can never do to you:
+You have indeed, my comrade, made a worthy offering,
+Your time is most just.
+
+First Senator:
+You have put your point home: you have avowed your
+mind, you have chosen your time, you have take your stand
+With him; he will you have nor
+
+Unix epoch time before iter #101: 1580591210.1003456
+[101 | 483.35] loss=0.61 avg=2.01
+Unix epoch time after iter #101: 1580591215.460937
+Unix epoch time before iter #102: 1580591215.4609559
+[102 | 487.05] loss=0.63 avg=1.99
+Unix epoch time after iter #102: 1580591219.1683471
+Unix epoch time before iter #103: 1580591219.1683621
+[103 | 490.98] loss=1.03 avg=1.97
+Unix epoch time after iter #103: 1580591223.097993
+Unix epoch time before iter #104: 1580591223.0980039
+[104 | 494.85] loss=0.72 avg=1.95
+Unix epoch time after iter #104: 1580591226.9659538
+Unix epoch time before iter #105: 1580591226.9659731
+[105 | 498.64] loss=0.77 avg=1.94
+Unix epoch time after iter #105: 1580591230.7555645
+Unix epoch time before iter #106: 1580591230.755581
+[106 | 502.56] loss=0.90 avg=1.92
+Unix epoch time after iter #106: 1580591234.6775243
+Unix epoch time before iter #107: 1580591234.6775386
+[107 | 506.28] loss=0.71 avg=1.90
+Unix epoch time after iter #107: 1580591238.3973627
+Unix epoch time before iter #108: 1580591238.397378
+[108 | 510.09] loss=0.57 avg=1.88
+Unix epoch time after iter #108: 1580591242.2011452
+Unix epoch time before iter #109: 1580591242.2011602
+[109 | 513.88] loss=0.77 avg=1.86
+Unix epoch time after iter #109: 1580591245.9908042
+Unix epoch time before iter #110: 1580591245.990824
+[110 | 517.76] loss=0.94 avg=1.85
+Unix epoch time after iter #110: 1580591249.8712988
+Unix epoch time before iter #111: 1580591249.8713148
+[111 | 521.76] loss=0.49 avg=1.83
+Unix epoch time after iter #111: 1580591253.8714323
+Unix epoch time before iter #112: 1580591253.8714519
+[112 | 525.56] loss=0.69 avg=1.81
+Unix epoch time after iter #112: 1580591257.6715658
+Unix epoch time before iter #113: 1580591257.6715803
+[113 | 529.41] loss=0.32 avg=1.79
+Unix epoch time after iter #113: 1580591261.5207047
+Unix epoch time before iter #114: 1580591261.5207243
+[114 | 533.24] loss=0.48 avg=1.77
+Unix epoch time after iter #114: 1580591265.35583
+Unix epoch time before iter #115: 1580591265.3558452
+[115 | 537.01] loss=0.25 avg=1.75
+Unix epoch time after iter #115: 1580591269.1224194
+Unix epoch time before iter #116: 1580591269.122585
+[116 | 540.86] loss=0.76 avg=1.74
+Unix epoch time after iter #116: 1580591272.9766316
+Unix epoch time before iter #117: 1580591272.976662
+[117 | 544.65] loss=0.36 avg=1.72
+Unix epoch time after iter #117: 1580591276.7630377
+Unix epoch time before iter #118: 1580591276.7631829
+[118 | 548.59] loss=0.38 avg=1.70
+Unix epoch time after iter #118: 1580591280.7067347
+Unix epoch time before iter #119: 1580591280.7068806
+[119 | 552.70] loss=0.53 avg=1.68
+Unix epoch time after iter #119: 1580591284.8110633
+Unix epoch time before iter #120: 1580591284.8110836
+[120 | 556.37] loss=0.29 avg=1.66
+Unix epoch time after iter #120: 1580591288.4874349
+Unix epoch time before iter #121: 1580591288.48745
+[121 | 560.33] loss=0.75 avg=1.65
+Unix epoch time after iter #121: 1580591292.442575
+Unix epoch time before iter #122: 1580591292.442593
+[122 | 564.34] loss=0.37 avg=1.63
+Unix epoch time after iter #122: 1580591296.45381
+Unix epoch time before iter #123: 1580591296.4538503
+[123 | 568.16] loss=0.35 avg=1.61
+Unix epoch time after iter #123: 1580591300.2747898
+Unix epoch time before iter #124: 1580591300.274986
+[124 | 572.28] loss=0.47 avg=1.60
+Unix epoch time after iter #124: 1580591304.3958278
+Unix epoch time before iter #125: 1580591304.3958466
+[125 | 576.08] loss=0.53 avg=1.58
+Unix epoch time after iter #125: 1580591308.1930037
+Unix epoch time before iter #126: 1580591308.1930196
+[126 | 580.26] loss=0.39 avg=1.56
+Unix epoch time after iter #126: 1580591312.3774047
+Unix epoch time before iter #127: 1580591312.3774228
+[127 | 583.93] loss=0.29 avg=1.55
+Unix epoch time after iter #127: 1580591316.0405753
+Unix epoch time before iter #128: 1580591316.040621
+[128 | 587.93] loss=0.20 avg=1.53
+Unix epoch time after iter #128: 1580591320.0427547
+Unix epoch time before iter #129: 1580591320.0427856
+[129 | 591.72] loss=0.19 avg=1.51
+Unix epoch time after iter #129: 1580591323.8370054
+Unix epoch time before iter #130: 1580591323.837021
+[130 | 595.72] loss=0.19 avg=1.49
+Unix epoch time after iter #130: 1580591327.83767
+Unix epoch time before iter #131: 1580591327.8376942
+[131 | 599.42] loss=0.25 avg=1.47
+Unix epoch time after iter #131: 1580591331.53387
+Unix epoch time before iter #132: 1580591331.5338898
+[132 | 603.14] loss=0.38 avg=1.46
+Unix epoch time after iter #132: 1580591335.2587357
+Unix epoch time before iter #133: 1580591335.2587588
+[133 | 606.88] loss=0.26 avg=1.44
+Unix epoch time after iter #133: 1580591338.9992702
+Unix epoch time before iter #134: 1580591339.0005522
+[134 | 610.53] loss=0.38 avg=1.43
+Unix epoch time after iter #134: 1580591342.6466858
+Unix epoch time before iter #135: 1580591342.646704
+[135 | 614.44] loss=0.19 avg=1.41
+Unix epoch time after iter #135: 1580591346.5561543
+Unix epoch time before iter #136: 1580591346.5561945
+[136 | 618.23] loss=0.36 avg=1.40
+Unix epoch time after iter #136: 1580591350.3410425
+Unix epoch time before iter #137: 1580591350.341059
+[137 | 622.11] loss=0.29 avg=1.38
+Unix epoch time after iter #137: 1580591354.2197244
+Unix epoch time before iter #138: 1580591354.2197404
+[138 | 625.91] loss=0.19 avg=1.37
+Unix epoch time after iter #138: 1580591358.025112
+Unix epoch time before iter #139: 1580591358.0251276
+[139 | 629.67] loss=0.16 avg=1.35
+Unix epoch time after iter #139: 1580591361.7803743
+Unix epoch time before iter #140: 1580591361.7803907
+[140 | 633.37] loss=0.14 avg=1.33
+Unix epoch time after iter #140: 1580591365.4856312
+Unix epoch time before iter #141: 1580591365.485648
+[141 | 637.20] loss=0.17 avg=1.32
+Unix epoch time after iter #141: 1580591369.3115232
+Unix epoch time before iter #142: 1580591369.3115401
+[142 | 641.20] loss=0.19 avg=1.30
+Unix epoch time after iter #142: 1580591373.3131166
+Unix epoch time before iter #143: 1580591373.313132
+[143 | 645.10] loss=0.30 avg=1.29
+Unix epoch time after iter #143: 1580591377.2171595
+Unix epoch time before iter #144: 1580591377.2171743
+[144 | 648.80] loss=0.20 avg=1.28
+Unix epoch time after iter #144: 1580591380.9137528
+Unix epoch time before iter #145: 1580591380.913779
+[145 | 652.65] loss=0.15 avg=1.26
+Unix epoch time after iter #145: 1580591384.7640626
+Unix epoch time before iter #146: 1580591384.764078
+[146 | 656.46] loss=0.19 avg=1.25
+Unix epoch time after iter #146: 1580591388.5732832
+Unix epoch time before iter #147: 1580591388.573306
+[147 | 660.32] loss=0.33 avg=1.24
+Unix epoch time after iter #147: 1580591392.4312973
+Unix epoch time before iter #148: 1580591392.431314
+[148 | 664.28] loss=0.23 avg=1.22
+Unix epoch time after iter #148: 1580591396.3910232
+Unix epoch time before iter #149: 1580591396.3910391
+[149 | 668.02] loss=0.17 avg=1.21
+Unix epoch time after iter #149: 1580591400.1351016
+Unix epoch time before iter #150: 1580591400.135118
+[150 | 671.89] loss=0.36 avg=1.20
+Unix epoch time after iter #150: 1580591404.000371
+Unix epoch time before iter #151: 1580591404.000386
+[151 | 675.67] loss=0.23 avg=1.19
+Unix epoch time after iter #151: 1580591407.787417
+Unix epoch time before iter #152: 1580591407.7874432
+[152 | 679.51] loss=0.15 avg=1.17
+Unix epoch time after iter #152: 1580591411.622945
+Unix epoch time before iter #153: 1580591411.6229615
+[153 | 683.37] loss=0.17 avg=1.16
+Unix epoch time after iter #153: 1580591415.484977
+Unix epoch time before iter #154: 1580591415.4850023
+[154 | 687.20] loss=0.09 avg=1.15
+Unix epoch time after iter #154: 1580591419.3187652
+Unix epoch time before iter #155: 1580591419.3187811
+[155 | 691.06] loss=0.10 avg=1.13
+Unix epoch time after iter #155: 1580591423.177749
+Unix epoch time before iter #156: 1580591423.1777642
+[156 | 694.89] loss=0.19 avg=1.12
+Unix epoch time after iter #156: 1580591427.0002394
+Unix epoch time before iter #157: 1580591427.0002544
+[157 | 698.81] loss=0.13 avg=1.11
+Unix epoch time after iter #157: 1580591430.9279647
+Unix epoch time before iter #158: 1580591430.9279802
+[158 | 702.58] loss=0.11 avg=1.10
+Unix epoch time after iter #158: 1580591434.6924531
+Unix epoch time before iter #159: 1580591434.6924746
+[159 | 706.42] loss=0.14 avg=1.08
+Unix epoch time after iter #159: 1580591438.5325742
+Unix epoch time before iter #160: 1580591438.5325947
+[160 | 710.29] loss=0.11 avg=1.07
+Unix epoch time after iter #160: 1580591442.4051054
+Unix epoch time before iter #161: 1580591442.4051273
+[161 | 714.24] loss=0.12 avg=1.06
+Unix epoch time after iter #161: 1580591446.3583832
+Unix epoch time before iter #162: 1580591446.3585203
+[162 | 717.92] loss=0.19 avg=1.05
+Unix epoch time after iter #162: 1580591450.0300448
+Unix epoch time before iter #163: 1580591450.0300624
+[163 | 721.73] loss=0.14 avg=1.04
+Unix epoch time after iter #163: 1580591453.8415296
+Unix epoch time before iter #164: 1580591453.8415508
+[164 | 725.47] loss=0.16 avg=1.03
+Unix epoch time after iter #164: 1580591457.5839398
+Unix epoch time before iter #165: 1580591457.58397
+[165 | 729.35] loss=0.16 avg=1.02
+Unix epoch time after iter #165: 1580591461.4607694
+Unix epoch time before iter #166: 1580591461.4607856
+[166 | 733.23] loss=0.11 avg=1.01
+Unix epoch time after iter #166: 1580591465.3417842
+Unix epoch time before iter #167: 1580591465.3417997
+[167 | 737.05] loss=0.15 avg=1.00
+Unix epoch time after iter #167: 1580591469.1599782
+Unix epoch time before iter #168: 1580591469.1600025
+[168 | 741.09] loss=0.09 avg=0.98
+Unix epoch time after iter #168: 1580591473.2040074
+Unix epoch time before iter #169: 1580591473.2040186
+[169 | 744.87] loss=0.14 avg=0.97
+Unix epoch time after iter #169: 1580591476.9887779
+Unix epoch time before iter #170: 1580591476.9889293
+[170 | 748.95] loss=0.19 avg=0.96
+Unix epoch time after iter #170: 1580591481.065735
+Unix epoch time before iter #171: 1580591481.0657494
+[171 | 752.88] loss=0.11 avg=0.95
+Unix epoch time after iter #171: 1580591484.9955032
+Unix epoch time before iter #172: 1580591484.995518
+[172 | 756.49] loss=0.12 avg=0.94
+Unix epoch time after iter #172: 1580591488.605552
+Unix epoch time before iter #173: 1580591488.6055665
+[173 | 760.28] loss=0.10 avg=0.93
+Unix epoch time after iter #173: 1580591492.3917904
+Unix epoch time before iter #174: 1580591492.3918085
+[174 | 764.11] loss=0.15 avg=0.92
+Unix epoch time after iter #174: 1580591496.220897
+Unix epoch time before iter #175: 1580591496.2209377
+[175 | 768.01] loss=0.06 avg=0.91
+Unix epoch time after iter #175: 1580591500.125169
+Unix epoch time before iter #176: 1580591500.1251855
+[176 | 771.77] loss=0.10 avg=0.90
+Unix epoch time after iter #176: 1580591503.8870404
+Unix epoch time before iter #177: 1580591503.8870745
+[177 | 775.52] loss=0.11 avg=0.89
+Unix epoch time after iter #177: 1580591507.636644
+Unix epoch time before iter #178: 1580591507.6366904
+[178 | 779.29] loss=0.12 avg=0.88
+Unix epoch time after iter #178: 1580591511.4051554
+Unix epoch time before iter #179: 1580591511.4053142
+[179 | 783.17] loss=0.11 avg=0.88
+Unix epoch time after iter #179: 1580591515.285261
+Unix epoch time before iter #180: 1580591515.2852755
+[180 | 787.06] loss=0.08 avg=0.87
+Unix epoch time after iter #180: 1580591519.1702096
+Unix epoch time before iter #181: 1580591519.1702302
+[181 | 790.72] loss=0.09 avg=0.86
+Unix epoch time after iter #181: 1580591522.8389096
+Unix epoch time before iter #182: 1580591522.838926
+[182 | 794.66] loss=0.13 avg=0.85
+Unix epoch time after iter #182: 1580591526.7759748
+Unix epoch time before iter #183: 1580591526.7759953
+[183 | 798.74] loss=0.09 avg=0.84
+Unix epoch time after iter #183: 1580591530.85405
+Unix epoch time before iter #184: 1580591530.8540652
+[184 | 802.56] loss=0.06 avg=0.83
+Unix epoch time after iter #184: 1580591534.67057
+Unix epoch time before iter #185: 1580591534.6705856
+[185 | 806.27] loss=0.11 avg=0.82
+Unix epoch time after iter #185: 1580591538.3826542
+Unix epoch time before iter #186: 1580591538.3826745
+[186 | 810.12] loss=0.13 avg=0.81
+Unix epoch time after iter #186: 1580591542.23193
+Unix epoch time before iter #187: 1580591542.2319462
+[187 | 814.10] loss=0.07 avg=0.80
+Unix epoch time after iter #187: 1580591546.217717
+Unix epoch time before iter #188: 1580591546.2177408
+[188 | 817.82] loss=0.10 avg=0.80
+Unix epoch time after iter #188: 1580591549.9352555
+Unix epoch time before iter #189: 1580591549.9352815
+[189 | 821.73] loss=0.09 avg=0.79
+Unix epoch time after iter #189: 1580591553.8468916
+Unix epoch time before iter #190: 1580591553.8469083
+[190 | 825.52] loss=0.09 avg=0.78
+Unix epoch time after iter #190: 1580591557.6342633
+Unix epoch time before iter #191: 1580591557.6342869
+[191 | 829.31] loss=0.08 avg=0.77
+Unix epoch time after iter #191: 1580591561.4194853
+Unix epoch time before iter #192: 1580591561.4195006
+[192 | 833.16] loss=0.06 avg=0.76
+Unix epoch time after iter #192: 1580591565.2701662
+Unix epoch time before iter #193: 1580591565.2701852
+[193 | 836.91] loss=0.11 avg=0.76
+Unix epoch time after iter #193: 1580591569.0238516
+Unix epoch time before iter #194: 1580591569.0240242
+[194 | 840.72] loss=0.10 avg=0.75
+Unix epoch time after iter #194: 1580591572.8334014
+Unix epoch time before iter #195: 1580591572.8334184
+[195 | 844.64] loss=0.08 avg=0.74
+Unix epoch time after iter #195: 1580591576.750113
+Unix epoch time before iter #196: 1580591576.7501254
+[196 | 848.54] loss=0.11 avg=0.73
+Unix epoch time after iter #196: 1580591580.6556416
+Unix epoch time before iter #197: 1580591580.65566
+[197 | 852.17] loss=0.11 avg=0.73
+Unix epoch time after iter #197: 1580591584.2803483
+Unix epoch time before iter #198: 1580591584.2803633
+[198 | 856.01] loss=0.06 avg=0.72
+Unix epoch time after iter #198: 1580591588.1227896
+Unix epoch time before iter #199: 1580591588.1228087
+[199 | 859.76] loss=0.11 avg=0.71
+Unix epoch time after iter #199: 1580591591.871156
+Unix epoch time before iter #200: 1580591591.8711712
+[200 | 863.51] loss=0.11 avg=0.70
+Unix epoch time after iter #200: 1580591595.6291237
+Saving checkpoint/run1/model-200
