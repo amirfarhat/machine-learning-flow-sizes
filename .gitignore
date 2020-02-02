@@ -1,3 +1,10 @@
+# Data folders
+filtered_dumps/
+flow_cdfs/
+flow_pickles/
+tcpdumps/
+tcptraces/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
