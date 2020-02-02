@@ -33,9 +33,6 @@ def main(
 
         flows = pickle_data
 
-        # iterations = pickle_data['iterations']
-        # flows = pickle_data['flows']
-        # print(flows)
         for flow_tuple in flows:
             iterations_length = len(flows[flow_tuple]['iteration_bins'])
             break
@@ -76,10 +73,8 @@ def main(
 
         add_cdf_to_plot(GB_iteration_bins, plt)
         useful_flow_count += 1
-        # break
 
     plt.legend(tuple(flow_strs))
-    # plt.savefig('plot_from_{}.png'.format(flow_pickle_file))
     plt.show()
 
 if __name__ == '__main__':
