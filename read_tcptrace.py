@@ -19,7 +19,6 @@ def is_kungfu_host(host):
 		if host.startswith(ip):
 			return True
 	return False
-	# return host[:len(kungfu_ip)] in kungfu_ips
 
 def are_kungfu_hosts(hosts):
 	return all(is_kungfu_host(host) for host in hosts)
