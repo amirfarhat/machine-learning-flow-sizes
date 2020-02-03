@@ -1,10 +1,14 @@
 import os
+import csv
 import pickle
 import matplotlib.pyplot as plt
 
 from tqdm import tqdm
 
 from plot_cdf import add_cdf_to_plot
+
+
+path = '/Users/amirfarhat/Desktop/machine-learning-flow-sizes/cachenet_experiments/'
 
 
 def flows_from_pickle(flow_pickle_file):
@@ -19,19 +23,30 @@ def flows_from_pickle(flow_pickle_file):
     return flows
 
 
-path = '/Users/amirfarhat/Desktop/machine-learning-flow-sizes/cachenet_experiments/'
+def write_flow_bytes_sent_csv(model_name, flow_sizes_bytes, flow_sizes_cdf):
+    # determine output file
+    cdfs_path = os.path.join(path, "cdfs")
+    output_file_path = f"{os.path.join(cdfs_path, model_name)}.csv"
 
-# prepare plot
-plt.rcParams.update({'font.size': 30})
-plt.ylabel('CDF')
-plt.xlabel('Flow size per iteration [GB]')
+    # write cdf to output csv file
+    with open(output_file_path, 'w') as csv_file:
+        
+        # open csv and write header
+        fieldnames = ['flow_bytes_sent', 'cdf']
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer.writeheader()
+
+        # write the flow size value
+        for s, c in zip(flow_sizes_bytes, flow_sizes_cdf):
+            writer.writerow({'flow_bytes_sent': s, 'cdf': c / 100})
+
 
 for model_name in sorted(os.listdir(path)):
     # skip the figures and cdf directory
     if model_name in { 'figures', 'cdfs' }: continue
 
-    # DEBUG: skip gpt-2 for fastness
-    # if model_name == 'gpt2-744m': continue    
+    # # DEBUG: skip gpt-2 for fastness
+    # if model_name == 'gpt2-744m': continue
 
     print(f"Processing {model_name}...")
 
@@ -40,7 +55,7 @@ for model_name in sorted(os.listdir(path)):
     if not os.path.isdir(experiment_directory): continue
 
     # record flow size per iteration across all flows of the model
-    all_iteration_bins = []
+    flow_sizes = []
 
     # open the flow pickle files
     flow_pickle_directory = os.path.join(experiment_directory, 'flow_pickles')
@@ -55,20 +70,13 @@ for model_name in sorted(os.listdir(path)):
 
         # add this flow's iteration bins to the total
         for flow_tuple in tqdm(flows, total=len(flows), desc=f"Accumulating {model_name} flows..."):
-            # scale iteration_bins flow sizes to GB
-            gigabyte_flow_iteration_bins = map(lambda s: s / 10**9, flows[flow_tuple]['iteration_bins'])
-            all_iteration_bins.extend(gigabyte_flow_iteration_bins)
+            flow_size = flows[flow_tuple]['flow_size_bytes']
+            flow_sizes.append(flow_size)
 
     # calculate cdf
-    all_iteration_bins = sorted(s for s in all_iteration_bins if s != 0)
-    items, counts = add_cdf_to_plot(all_iteration_bins)
+    flow_sizes = sorted(s for s in flow_sizes if s != 0)
+    items, counts = add_cdf_to_plot(flow_sizes)
 
-    # normalize counts to CDF [0, 1]
-    counts = [c / 100 for c in counts]
-        
-    # plot the flows' cdf for this model
-    plt.plot(items, counts, linewidth=10.0, label=f"{model_name} flows")
-    
-# show legend and plot
-plt.legend()
-plt.show()
+    # write cdf of flow's bytes sent
+    write_flow_bytes_sent_csv(model_name, items, counts)
+
