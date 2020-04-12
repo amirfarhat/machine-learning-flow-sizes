@@ -10,6 +10,14 @@ kungfu_ips = {
     'kungfu-gpu-vm-v100-40',
     'kungfu-gpu-vm-v100-41',
     'kungfu-gpu-vm-v100-42',
+    'horovod-vm-t4-1',
+    'horovod-vm-t4-2',
+    'horovod-vm-t4-3',
+    'horovod-vm-t4-4',
+    'hvd-t4-vm-1',
+    'hvd-t4-vm-2',
+    'hvd-t4-vm-3',
+    'hvd-t4-vm-4',
 }
 
 def is_kungfu_host(host):
@@ -49,6 +57,9 @@ def main(
 					sentGigabytesB = sentB / 10**9
 
 					if sentGigabytesA == sentGigabytesB == 0:
+						continue
+
+					if sentGigabytesA < 10e-3 and sentGigabytesB < 10e-3:
 						continue
 
 					print('Flow {} <~~> {}'.format(hostA, hostB))
