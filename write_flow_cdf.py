@@ -28,6 +28,9 @@ def main(
     with open(flows_pickle_file, "rb") as raw_pickle:
         flows = pickle.load(raw_pickle)
 
+    # keep flows with a large flow_size_bytes
+    flows = { k:v for k,v in flows.items() if v['flow_size_bytes'] > 10**9 }
+
     # aggregate all flows' size per iteration 
     all_sizes_per_iteration = []
     for flow_tuple in flows:

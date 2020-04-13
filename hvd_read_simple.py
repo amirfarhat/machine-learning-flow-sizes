@@ -3,7 +3,7 @@ import pickle
 from pprint import pprint
 from tqdm import tqdm
 
-from analyze_iterations import get_iterations_list
+from hvd_analyze_iterations import get_iterations_list
 from utils import scale_values
 
 kungfu_ips = {

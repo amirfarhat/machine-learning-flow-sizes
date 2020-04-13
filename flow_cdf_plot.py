@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 from plot_cdf import add_cdf_to_plot
 
-MIN_FLOW_SIZE_THRESHOLD_BYTES = 45 
+MIN_FLOW_SIZE_THRESHOLD_BYTES = 10**9
 
 @click.command()
 @click.option(
