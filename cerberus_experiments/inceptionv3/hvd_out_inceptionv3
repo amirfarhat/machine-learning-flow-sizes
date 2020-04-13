@@ -1,0 +1,1312 @@
+[1,6]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,6]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,6]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,6]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,6]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,6]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,6]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,6]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,6]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,6]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,6]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,6]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,6]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,6]<stderr>:Instructions for updating:
+[1,6]<stderr>:Colocations handled automatically by placer.
+[1,14]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,14]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,14]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,14]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,14]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,14]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,14]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,14]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,14]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,14]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,14]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,14]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,14]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,14]<stderr>:Instructions for updating:
+[1,14]<stderr>:Colocations handled automatically by placer.
+[1,12]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,12]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,12]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,12]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,12]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,12]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,12]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,12]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,12]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,12]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,12]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,12]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,12]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,12]<stderr>:Instructions for updating:
+[1,12]<stderr>:Colocations handled automatically by placer.
+[1,7]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,7]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,7]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,7]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,7]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,7]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,7]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,7]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,7]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,7]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,7]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,7]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,7]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,7]<stderr>:Instructions for updating:
+[1,7]<stderr>:Colocations handled automatically by placer.
+[1,15]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,15]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,15]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,15]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,15]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,15]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,15]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,15]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,15]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,15]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,15]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,15]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,15]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,15]<stderr>:Instructions for updating:
+[1,15]<stderr>:Colocations handled automatically by placer.
+[1,5]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,5]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,5]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,5]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,5]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,5]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,5]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,5]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,5]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,5]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,5]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,5]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,5]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,5]<stderr>:Instructions for updating:
+[1,5]<stderr>:Colocations handled automatically by placer.
+[1,9]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,9]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,9]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,9]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,9]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,9]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,9]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,9]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,9]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,9]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,9]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,9]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,9]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,9]<stderr>:Instructions for updating:
+[1,9]<stderr>:Colocations handled automatically by placer.
+[1,4]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,4]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,4]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,4]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,4]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,4]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,4]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,4]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,4]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,4]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,4]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,4]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,4]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,4]<stderr>:Instructions for updating:
+[1,4]<stderr>:Colocations handled automatically by placer.
+[1,1]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,1]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,1]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,1]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,1]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,1]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,1]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,1]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,1]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,1]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,1]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,1]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,1]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,1]<stderr>:Instructions for updating:
+[1,1]<stderr>:Colocations handled automatically by placer.
+[1,10]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,10]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,10]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,10]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,10]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,10]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,10]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,10]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,10]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,10]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,10]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,10]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,10]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,10]<stderr>:Instructions for updating:
+[1,10]<stderr>:Colocations handled automatically by placer.
+[1,2]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,2]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,2]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,2]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,2]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,2]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,2]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,2]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,2]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,2]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,2]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,2]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,2]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,2]<stderr>:Instructions for updating:
+[1,2]<stderr>:Colocations handled automatically by placer.
+[1,11]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,11]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,11]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,11]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,11]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,11]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,11]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,11]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,11]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,11]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,11]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,11]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,11]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,11]<stderr>:Instructions for updating:
+[1,11]<stderr>:Colocations handled automatically by placer.
+[1,0]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,0]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,0]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,0]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,0]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,0]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,0]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,0]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,0]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,0]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,0]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,0]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,0]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,0]<stderr>:Instructions for updating:
+[1,0]<stderr>:Colocations handled automatically by placer.
+[1,13]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,13]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,13]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,13]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,13]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,13]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,13]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,13]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,13]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,13]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,13]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,13]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,13]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,13]<stderr>:Instructions for updating:
+[1,13]<stderr>:Colocations handled automatically by placer.
+[1,8]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,8]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,8]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,8]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,8]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,8]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,8]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,8]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,8]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,8]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,8]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,8]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,8]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,8]<stderr>:Instructions for updating:
+[1,8]<stderr>:Colocations handled automatically by placer.
+[1,3]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,3]<stderr>:  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[1,3]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,3]<stderr>:  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[1,3]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,3]<stderr>:  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[1,3]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,3]<stderr>:  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[1,3]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,3]<stderr>:  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[1,3]<stderr>:/home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[1,3]<stderr>:  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[1,3]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+[1,3]<stderr>:Instructions for updating:
+[1,3]<stderr>:Colocations handled automatically by placer.
+[1,7]<stderr>:2020-04-12 19:09:23.607381: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,7]<stderr>:2020-04-12 19:09:23.614210: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,7]<stderr>:2020-04-12 19:09:23.615928: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55d6ba3274f0 executing computations on platform Host. Devices:
+[1,7]<stderr>:2020-04-12 19:09:23.615959: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,5]<stderr>:2020-04-12 19:09:23.628662: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,5]<stderr>:2020-04-12 19:09:23.636489: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,5]<stderr>:2020-04-12 19:09:23.637912: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5611325111a0 executing computations on platform Host. Devices:
+[1,5]<stderr>:2020-04-12 19:09:23.637942: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,14]<stderr>:2020-04-12 19:09:23.648209: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,14]<stderr>:2020-04-12 19:09:23.658834: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,14]<stderr>:2020-04-12 19:09:23.660321: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55cc2c601bf0 executing computations on platform Host. Devices:
+[1,14]<stderr>:2020-04-12 19:09:23.660366: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,12]<stderr>:2020-04-12 19:09:23.662166: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,12]<stderr>:2020-04-12 19:09:23.668551: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,12]<stderr>:2020-04-12 19:09:23.669737: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x564c909a01a0 executing computations on platform Host. Devices:
+[1,12]<stderr>:2020-04-12 19:09:23.669776: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,15]<stderr>:2020-04-12 19:09:23.692309: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,15]<stderr>:2020-04-12 19:09:23.698421: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,15]<stderr>:2020-04-12 19:09:23.699542: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55ee402571a0 executing computations on platform Host. Devices:
+[1,15]<stderr>:2020-04-12 19:09:23.699566: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,13]<stderr>:2020-04-12 19:09:23.727358: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,13]<stderr>:2020-04-12 19:09:23.735585: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,13]<stderr>:2020-04-12 19:09:23.736917: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55d6913261a0 executing computations on platform Host. Devices:
+[1,13]<stderr>:2020-04-12 19:09:23.736950: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,6]<stderr>:2020-04-12 19:09:23.742325: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,6]<stderr>:2020-04-12 19:09:23.750774: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,6]<stderr>:2020-04-12 19:09:23.752021: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55fb45b82e60 executing computations on platform Host. Devices:
+[1,6]<stderr>:2020-04-12 19:09:23.752048: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,4]<stderr>:2020-04-12 19:09:23.755056: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,4]<stderr>:2020-04-12 19:09:23.761140: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,4]<stderr>:2020-04-12 19:09:23.762323: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55972055e1a0 executing computations on platform Host. Devices:
+[1,4]<stderr>:2020-04-12 19:09:23.762345: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,2]<stderr>:2020-04-12 19:09:23.989360: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,2]<stderr>:2020-04-12 19:09:23.998872: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,2]<stderr>:2020-04-12 19:09:23.999996: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x563ad18953c0 executing computations on platform Host. Devices:
+[1,2]<stderr>:2020-04-12 19:09:24.000035: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,0]<stdout>:Model: InceptionV3
+[1,0]<stdout>:Batch size: 64
+[1,0]<stdout>:Number of GPUs: 16
+[1,0]<stderr>:2020-04-12 19:09:24.012355: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,0]<stderr>:2020-04-12 19:09:24.022802: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,0]<stderr>:2020-04-12 19:09:24.024015: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5592648927e0 executing computations on platform Host. Devices:
+[1,0]<stderr>:2020-04-12 19:09:24.024041: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,8]<stderr>:2020-04-12 19:09:24.038387: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,3]<stderr>:2020-04-12 19:09:24.042402: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,8]<stderr>:2020-04-12 19:09:24.045095: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,8]<stderr>:2020-04-12 19:09:24.046259: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x561bcedc71a0 executing computations on platform Host. Devices:
+[1,8]<stderr>:2020-04-12 19:09:24.046298: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,3]<stderr>:2020-04-12 19:09:24.049598: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,3]<stderr>:2020-04-12 19:09:24.050859: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x56067ba266d0 executing computations on platform Host. Devices:
+[1,3]<stderr>:2020-04-12 19:09:24.050901: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,10]<stderr>:2020-04-12 19:09:24.069239: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,9]<stderr>:2020-04-12 19:09:24.078589: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,10]<stderr>:2020-04-12 19:09:24.079250: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,10]<stderr>:2020-04-12 19:09:24.080321: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x561cf11ca1a0 executing computations on platform Host. Devices:
+[1,10]<stderr>:2020-04-12 19:09:24.080351: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,9]<stderr>:2020-04-12 19:09:24.087516: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,9]<stderr>:2020-04-12 19:09:24.088195: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55e1e63c5030 executing computations on platform Host. Devices:
+[1,9]<stderr>:2020-04-12 19:09:24.088228: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,1]<stderr>:2020-04-12 19:09:24.124025: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,11]<stderr>:2020-04-12 19:09:24.126451: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[1,1]<stderr>:2020-04-12 19:09:24.130952: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,1]<stderr>:2020-04-12 19:09:24.132622: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55cabbb0f5a0 executing computations on platform Host. Devices:
+[1,1]<stderr>:2020-04-12 19:09:24.132703: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,11]<stderr>:2020-04-12 19:09:24.139392: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+[1,11]<stderr>:2020-04-12 19:09:24.140530: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55cb4f3c81a0 executing computations on platform Host. Devices:
+[1,11]<stderr>:2020-04-12 19:09:24.140559: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+[1,7]<stderr>:2020-04-12 19:09:24.249269: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,7]<stderr>:2020-04-12 19:09:24.257951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,7]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,7]<stderr>:pciBusID: 0000:00:07.0
+[1,7]<stderr>:totalMemory: 14.75GiB freeMemory: 14.65GiB
+[1,7]<stderr>:2020-04-12 19:09:24.257987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 3
+[1,7]<stderr>:2020-04-12 19:09:24.289410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,7]<stderr>:2020-04-12 19:09:24.289440: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      3 
+[1,7]<stderr>:2020-04-12 19:09:24.289448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 3:   N 
+[1,7]<stderr>:2020-04-12 19:09:24.289745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14249 MB memory) -> physical GPU (device: 3, name: Tesla T4, pci bus id: 0000:00:07.0, compute capability: 7.5)
+[1,14]<stderr>:2020-04-12 19:09:24.363240: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,14]<stderr>:2020-04-12 19:09:24.374335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,14]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,14]<stderr>:pciBusID: 0000:00:06.0
+[1,14]<stderr>:totalMemory: 14.75GiB freeMemory: 14.65GiB
+[1,14]<stderr>:2020-04-12 19:09:24.374374: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 2
+[1,14]<stderr>:2020-04-12 19:09:24.416972: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,14]<stderr>:2020-04-12 19:09:24.417005: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      2 
+[1,14]<stderr>:2020-04-12 19:09:24.417012: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 2:   N 
+[1,14]<stderr>:2020-04-12 19:09:24.417325: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14249 MB memory) -> physical GPU (device: 2, name: Tesla T4, pci bus id: 0000:00:06.0, compute capability: 7.5)
+[1,8]<stderr>:2020-04-12 19:09:24.730719: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,8]<stderr>:2020-04-12 19:09:24.736375: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,8]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,8]<stderr>:pciBusID: 0000:00:04.0
+[1,8]<stderr>:totalMemory: 14.75GiB freeMemory: 14.65GiB
+[1,8]<stderr>:2020-04-12 19:09:24.736422: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+[1,2]<stderr>:2020-04-12 19:09:24.741633: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,2]<stderr>:2020-04-12 19:09:24.749408: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,2]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,2]<stderr>:pciBusID: 0000:00:06.0
+[1,2]<stderr>:totalMemory: 14.75GiB freeMemory: 14.65GiB
+[1,2]<stderr>:2020-04-12 19:09:24.749447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 2
+[1,5]<stderr>:2020-04-12 19:09:24.773379: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,5]<stderr>:2020-04-12 19:09:24.776194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,5]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,5]<stderr>:pciBusID: 0000:00:05.0
+[1,5]<stderr>:totalMemory: 14.75GiB freeMemory: 14.64GiB
+[1,5]<stderr>:2020-04-12 19:09:24.776229: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 1
+[1,8]<stderr>:2020-04-12 19:09:24.779756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,8]<stderr>:2020-04-12 19:09:24.779791: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+[1,8]<stderr>:2020-04-12 19:09:24.779799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+[1,8]<stderr>:2020-04-12 19:09:24.780120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14249 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5)
+[1,2]<stderr>:2020-04-12 19:09:24.786915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,2]<stderr>:2020-04-12 19:09:24.786943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      2 
+[1,2]<stderr>:2020-04-12 19:09:24.786950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 2:   N 
+[1,2]<stderr>:2020-04-12 19:09:24.787221: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14249 MB memory) -> physical GPU (device: 2, name: Tesla T4, pci bus id: 0000:00:06.0, compute capability: 7.5)
+[1,5]<stderr>:2020-04-12 19:09:24.792182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,5]<stderr>:2020-04-12 19:09:24.792214: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      1 
+[1,5]<stderr>:2020-04-12 19:09:24.792223: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 1:   N 
+[1,5]<stderr>:2020-04-12 19:09:24.792436: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14238 MB memory) -> physical GPU (device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5)
+[1,6]<stderr>:2020-04-12 19:09:24.794824: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,6]<stderr>:2020-04-12 19:09:24.802662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,6]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,6]<stderr>:pciBusID: 0000:00:06.0
+[1,6]<stderr>:totalMemory: 14.75GiB freeMemory: 14.64GiB
+[1,6]<stderr>:2020-04-12 19:09:24.802706: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 2
+[1,4]<stderr>:2020-04-12 19:09:24.807317: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,4]<stderr>:2020-04-12 19:09:24.812930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,4]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,4]<stderr>:pciBusID: 0000:00:04.0
+[1,4]<stderr>:totalMemory: 14.75GiB freeMemory: 14.63GiB
+[1,4]<stderr>:2020-04-12 19:09:24.812973: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+[1,12]<stderr>:2020-04-12 19:09:24.833469: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,12]<stderr>:2020-04-12 19:09:24.842792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,12]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,12]<stderr>:pciBusID: 0000:00:04.0
+[1,12]<stderr>:totalMemory: 14.75GiB freeMemory: 14.64GiB
+[1,12]<stderr>:2020-04-12 19:09:24.842842: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+[1,12]<stderr>:2020-04-12 19:09:24.899708: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,12]<stderr>:2020-04-12 19:09:24.899743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+[1,12]<stderr>:2020-04-12 19:09:24.899753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+[1,12]<stderr>:2020-04-12 19:09:24.900246: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14238 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5)
+[1,6]<stderr>:2020-04-12 19:09:25.148456: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,6]<stderr>:2020-04-12 19:09:25.148507: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      2 
+[1,6]<stderr>:2020-04-12 19:09:25.148515: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 2:   N 
+[1,6]<stderr>:2020-04-12 19:09:25.151885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14228 MB memory) -> physical GPU (device: 2, name: Tesla T4, pci bus id: 0000:00:06.0, compute capability: 7.5)
+[1,4]<stderr>:2020-04-12 19:09:25.164971: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,4]<stderr>:2020-04-12 19:09:25.165009: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+[1,4]<stderr>:2020-04-12 19:09:25.165019: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+[1,4]<stderr>:2020-04-12 19:09:25.165514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14224 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5)
+[1,0]<stderr>:2020-04-12 19:09:25.232255: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,0]<stderr>:2020-04-12 19:09:25.255976: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,0]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,0]<stderr>:pciBusID: 0000:00:04.0
+[1,0]<stderr>:totalMemory: 14.75GiB freeMemory: 14.64GiB
+[1,0]<stderr>:2020-04-12 19:09:25.256030: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+[1,10]<stderr>:2020-04-12 19:09:25.309204: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,11]<stderr>:2020-04-12 19:09:25.311365: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,9]<stderr>:2020-04-12 19:09:25.311584: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,10]<stderr>:2020-04-12 19:09:25.312015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,10]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,10]<stderr>:pciBusID: 0000:00:06.0
+[1,10]<stderr>:totalMemory: 14.75GiB freeMemory: 14.64GiB
+[1,10]<stderr>:2020-04-12 19:09:25.312048: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 2
+[1,0]<stderr>:2020-04-12 19:09:25.316419: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,0]<stderr>:2020-04-12 19:09:25.316452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+[1,0]<stderr>:2020-04-12 19:09:25.316459: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+[1,11]<stderr>:2020-04-12 19:09:25.316579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,11]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,11]<stderr>:pciBusID: 0000:00:07.0
+[1,11]<stderr>:totalMemory: 14.75GiB freeMemory: 14.64GiB
+[1,11]<stderr>:2020-04-12 19:09:25.316618: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 3
+[1,0]<stderr>:2020-04-12 19:09:25.316776: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14238 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5)
+[1,9]<stderr>:2020-04-12 19:09:25.317554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,9]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,9]<stderr>:pciBusID: 0000:00:05.0
+[1,9]<stderr>:totalMemory: 14.75GiB freeMemory: 14.64GiB
+[1,9]<stderr>:2020-04-12 19:09:25.317585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 1
+[1,15]<stderr>:2020-04-12 19:09:25.333729: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,10]<stderr>:2020-04-12 19:09:25.338710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,10]<stderr>:2020-04-12 19:09:25.338745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      2 
+[1,10]<stderr>:2020-04-12 19:09:25.338754: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 2:   N 
+[1,15]<stderr>:2020-04-12 19:09:25.339661: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,15]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,15]<stderr>:pciBusID: 0000:00:07.0
+[1,15]<stderr>:totalMemory: 14.75GiB freeMemory: 14.62GiB
+[1,15]<stderr>:2020-04-12 19:09:25.339693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 3
+[1,10]<stderr>:2020-04-12 19:09:25.339492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14238 MB memory) -> physical GPU (device: 2, name: Tesla T4, pci bus id: 0000:00:06.0, compute capability: 7.5)
+[1,11]<stderr>:2020-04-12 19:09:25.341161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,11]<stderr>:2020-04-12 19:09:25.341189: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      3 
+[1,11]<stderr>:2020-04-12 19:09:25.341196: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 3:   N 
+[1,11]<stderr>:2020-04-12 19:09:25.341379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14238 MB memory) -> physical GPU (device: 3, name: Tesla T4, pci bus id: 0000:00:07.0, compute capability: 7.5)
+[1,9]<stderr>:2020-04-12 19:09:25.341503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,9]<stderr>:2020-04-12 19:09:25.341533: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      1 
+[1,9]<stderr>:2020-04-12 19:09:25.341543: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 1:   N 
+[1,9]<stderr>:2020-04-12 19:09:25.343822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14238 MB memory) -> physical GPU (device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5)
+[1,3]<stderr>:2020-04-12 19:09:25.348748: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,13]<stderr>:2020-04-12 19:09:25.365893: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,15]<stderr>:2020-04-12 19:09:25.367255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,15]<stderr>:2020-04-12 19:09:25.367289: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      3 
+[1,15]<stderr>:2020-04-12 19:09:25.367296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 3:   N 
+[1,15]<stderr>:2020-04-12 19:09:25.367754: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14226 MB memory) -> physical GPU (device: 3, name: Tesla T4, pci bus id: 0000:00:07.0, compute capability: 7.5)
+[1,13]<stderr>:2020-04-12 19:09:25.372307: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,13]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,13]<stderr>:pciBusID: 0000:00:05.0
+[1,13]<stderr>:totalMemory: 14.75GiB freeMemory: 14.62GiB
+[1,13]<stderr>:2020-04-12 19:09:25.372337: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 1
+[1,3]<stderr>:2020-04-12 19:09:25.581103: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,3]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,3]<stderr>:pciBusID: 0000:00:07.0
+[1,3]<stderr>:totalMemory: 14.75GiB freeMemory: 14.63GiB
+[1,3]<stderr>:2020-04-12 19:09:25.581161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 3
+[1,13]<stderr>:2020-04-12 19:09:25.606088: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,13]<stderr>:2020-04-12 19:09:25.606131: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      1 
+[1,13]<stderr>:2020-04-12 19:09:25.606138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 1:   N 
+[1,13]<stderr>:2020-04-12 19:09:25.607181: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14217 MB memory) -> physical GPU (device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5)
+[1,1]<stderr>:2020-04-12 19:09:25.719369: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,3]<stderr>:2020-04-12 19:09:25.722405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,3]<stderr>:2020-04-12 19:09:25.722456: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      3 
+[1,3]<stderr>:2020-04-12 19:09:25.722463: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 3:   N 
+[1,3]<stderr>:2020-04-12 19:09:25.723044: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14226 MB memory) -> physical GPU (device: 3, name: Tesla T4, pci bus id: 0000:00:07.0, compute capability: 7.5)
+[1,1]<stderr>:2020-04-12 19:09:25.725757: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+[1,1]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+[1,1]<stderr>:pciBusID: 0000:00:05.0
+[1,1]<stderr>:totalMemory: 14.75GiB freeMemory: 14.62GiB
+[1,1]<stderr>:2020-04-12 19:09:25.725793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 1
+[1,1]<stderr>:2020-04-12 19:09:25.875175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,1]<stderr>:2020-04-12 19:09:25.875253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      1 
+[1,1]<stderr>:2020-04-12 19:09:25.875266: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 1:   N 
+[1,1]<stderr>:2020-04-12 19:09:25.991043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14217 MB memory) -> physical GPU (device: 1, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5)
+[1,7]<stderr>:2020-04-12 19:09:26.354173: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,7]<stderr>:2020-04-12 19:09:26.415293: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,7]<stderr>:2020-04-12 19:09:26.542622: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,7]<stderr>:2020-04-12 19:09:26.577335: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55d6ba9a88c0 executing computations on platform CUDA. Devices:
+[1,7]<stderr>:2020-04-12 19:09:26.577383: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,7]<stderr>:2020-04-12 19:09:26.577393: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,7]<stderr>:2020-04-12 19:09:26.577401: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,7]<stderr>:2020-04-12 19:09:26.577408: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,5]<stderr>:2020-04-12 19:09:26.649617: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,5]<stderr>:2020-04-12 19:09:26.667203: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,14]<stderr>:2020-04-12 19:09:26.685769: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,6]<stderr>:2020-04-12 19:09:26.701788: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,5]<stderr>:2020-04-12 19:09:26.710808: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,5]<stderr>:2020-04-12 19:09:26.715695: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5611366895c0 executing computations on platform CUDA. Devices:
+[1,5]<stderr>:2020-04-12 19:09:26.715726: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,5]<stderr>:2020-04-12 19:09:26.715736: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,5]<stderr>:2020-04-12 19:09:26.715743: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,5]<stderr>:2020-04-12 19:09:26.715749: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,4]<stderr>:2020-04-12 19:09:26.717783: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,6]<stderr>:2020-04-12 19:09:26.724355: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,4]<stderr>:2020-04-12 19:09:26.731701: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,6]<stderr>:2020-04-12 19:09:26.744954: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,6]<stderr>:2020-04-12 19:09:26.747543: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55fb46208b50 executing computations on platform CUDA. Devices:
+[1,6]<stderr>:2020-04-12 19:09:26.747574: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,6]<stderr>:2020-04-12 19:09:26.747580: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,6]<stderr>:2020-04-12 19:09:26.747584: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,6]<stderr>:2020-04-12 19:09:26.747589: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,4]<stderr>:2020-04-12 19:09:26.750247: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,4]<stderr>:2020-04-12 19:09:26.752205: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5597246d6530 executing computations on platform CUDA. Devices:
+[1,4]<stderr>:2020-04-12 19:09:26.752246: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,4]<stderr>:2020-04-12 19:09:26.752257: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,14]<stderr>:2020-04-12 19:09:26.753140: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,4]<stderr>:2020-04-12 19:09:26.752266: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,4]<stderr>:2020-04-12 19:09:26.752274: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,12]<stderr>:2020-04-12 19:09:26.770821: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,12]<stderr>:2020-04-12 19:09:26.878986: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,14]<stderr>:2020-04-12 19:09:26.880149: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,14]<stderr>:2020-04-12 19:09:26.892573: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55cc2cc80f60 executing computations on platform CUDA. Devices:
+[1,14]<stderr>:2020-04-12 19:09:26.892607: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,14]<stderr>:2020-04-12 19:09:26.892613: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,14]<stderr>:2020-04-12 19:09:26.892619: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,14]<stderr>:2020-04-12 19:09:26.892623: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,15]<stderr>:2020-04-12 19:09:26.912372: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,8]<stderr>:2020-04-12 19:09:26.927762: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,12]<stderr>:2020-04-12 19:09:26.933508: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,8]<stderr>:2020-04-12 19:09:26.934780: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,15]<stderr>:2020-04-12 19:09:26.936297: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,12]<stderr>:2020-04-12 19:09:26.936353: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x564c94b17700 executing computations on platform CUDA. Devices:
+[1,12]<stderr>:2020-04-12 19:09:26.936386: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,12]<stderr>:2020-04-12 19:09:26.936396: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,12]<stderr>:2020-04-12 19:09:26.936404: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,12]<stderr>:2020-04-12 19:09:26.936411: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,15]<stderr>:2020-04-12 19:09:26.956243: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,15]<stderr>:2020-04-12 19:09:26.962736: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55ee443ce8d0 executing computations on platform CUDA. Devices:
+[1,15]<stderr>:2020-04-12 19:09:26.962776: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,15]<stderr>:2020-04-12 19:09:26.962784: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,15]<stderr>:2020-04-12 19:09:26.962791: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,15]<stderr>:2020-04-12 19:09:26.962797: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,13]<stderr>:2020-04-12 19:09:26.964591: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,13]<stderr>:2020-04-12 19:09:26.971275: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,13]<stderr>:2020-04-12 19:09:26.979440: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,13]<stderr>:2020-04-12 19:09:26.980666: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55d69549d480 executing computations on platform CUDA. Devices:
+[1,13]<stderr>:2020-04-12 19:09:26.980690: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,13]<stderr>:2020-04-12 19:09:26.980696: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,13]<stderr>:2020-04-12 19:09:26.980700: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,13]<stderr>:2020-04-12 19:09:26.980704: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,8]<stderr>:2020-04-12 19:09:26.999171: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,8]<stderr>:2020-04-12 19:09:27.012135: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x561bd2f3ed50 executing computations on platform CUDA. Devices:
+[1,8]<stderr>:2020-04-12 19:09:27.012167: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,8]<stderr>:2020-04-12 19:09:27.012174: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,8]<stderr>:2020-04-12 19:09:27.012179: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,8]<stderr>:2020-04-12 19:09:27.012184: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,2]<stderr>:2020-04-12 19:09:27.085082: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,2]<stderr>:2020-04-12 19:09:27.172860: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,0]<stderr>:2020-04-12 19:09:27.287924: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,2]<stderr>:2020-04-12 19:09:27.307139: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,10]<stderr>:2020-04-12 19:09:27.321523: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,2]<stderr>:2020-04-12 19:09:27.323821: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x563ad1f14640 executing computations on platform CUDA. Devices:
+[1,2]<stderr>:2020-04-12 19:09:27.323888: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,2]<stderr>:2020-04-12 19:09:27.323901: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,2]<stderr>:2020-04-12 19:09:27.323910: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,2]<stderr>:2020-04-12 19:09:27.323918: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,11]<stderr>:2020-04-12 19:09:27.339626: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,9]<stderr>:2020-04-12 19:09:27.353973: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,10]<stderr>:2020-04-12 19:09:27.359917: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,0]<stderr>:2020-04-12 19:09:27.371507: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,11]<stderr>:2020-04-12 19:09:27.380341: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,10]<stderr>:2020-04-12 19:09:27.394754: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,10]<stderr>:2020-04-12 19:09:27.398661: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x561cf5341210 executing computations on platform CUDA. Devices:
+[1,10]<stderr>:2020-04-12 19:09:27.398689: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,10]<stderr>:2020-04-12 19:09:27.398695: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,10]<stderr>:2020-04-12 19:09:27.398701: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,10]<stderr>:2020-04-12 19:09:27.398706: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,11]<stderr>:2020-04-12 19:09:27.406457: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,9]<stderr>:2020-04-12 19:09:27.409130: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,3]<stderr>:2020-04-12 19:09:27.409710: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,11]<stderr>:2020-04-12 19:09:27.409457: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55cb535400e0 executing computations on platform CUDA. Devices:
+[1,11]<stderr>:2020-04-12 19:09:27.409482: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,11]<stderr>:2020-04-12 19:09:27.409489: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,11]<stderr>:2020-04-12 19:09:27.409494: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,11]<stderr>:2020-04-12 19:09:27.409499: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,9]<stderr>:2020-04-12 19:09:27.410502: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,9]<stderr>:2020-04-12 19:09:27.413492: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55e1e6a35f80 executing computations on platform CUDA. Devices:
+[1,9]<stderr>:2020-04-12 19:09:27.413521: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,9]<stderr>:2020-04-12 19:09:27.413528: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,9]<stderr>:2020-04-12 19:09:27.413533: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,9]<stderr>:2020-04-12 19:09:27.413538: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,0]<stderr>:2020-04-12 19:09:27.423970: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,0]<stderr>:2020-04-12 19:09:27.428082: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x559264f11020 executing computations on platform CUDA. Devices:
+[1,0]<stderr>:2020-04-12 19:09:27.428128: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,0]<stderr>:2020-04-12 19:09:27.428138: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,0]<stderr>:2020-04-12 19:09:27.428146: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,0]<stderr>:2020-04-12 19:09:27.428153: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,1]<stderr>:2020-04-12 19:09:27.437851: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,3]<stderr>:2020-04-12 19:09:27.441599: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,3]<stderr>:2020-04-12 19:09:27.459767: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,3]<stderr>:2020-04-12 19:09:27.462091: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x56067e4d2af0 executing computations on platform CUDA. Devices:
+[1,3]<stderr>:2020-04-12 19:09:27.462134: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,3]<stderr>:2020-04-12 19:09:27.462144: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,3]<stderr>:2020-04-12 19:09:27.462151: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,3]<stderr>:2020-04-12 19:09:27.462158: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,1]<stderr>:2020-04-12 19:09:27.465037: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,1]<stderr>:2020-04-12 19:09:27.478270: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+[1,1]<stderr>:2020-04-12 19:09:27.480131: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55cabc193630 executing computations on platform CUDA. Devices:
+[1,1]<stderr>:2020-04-12 19:09:27.480173: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+[1,1]<stderr>:2020-04-12 19:09:27.480183: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (1): Tesla T4, Compute Capability 7.5
+[1,1]<stderr>:2020-04-12 19:09:27.480192: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (2): Tesla T4, Compute Capability 7.5
+[1,1]<stderr>:2020-04-12 19:09:27.480199: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (3): Tesla T4, Compute Capability 7.5
+[1,4]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,4]<stderr>:Instructions for updating:
+[1,4]<stderr>:Use tf.cast instead.
+[1,7]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,7]<stderr>:Instructions for updating:
+[1,7]<stderr>:Use tf.cast instead.
+[1,5]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,5]<stderr>:Instructions for updating:
+[1,5]<stderr>:Use tf.cast instead.
+[1,6]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,6]<stderr>:Instructions for updating:
+[1,6]<stderr>:Use tf.cast instead.
+[1,15]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,15]<stderr>:Instructions for updating:
+[1,15]<stderr>:Use tf.cast instead.
+[1,14]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,14]<stderr>:Instructions for updating:
+[1,14]<stderr>:Use tf.cast instead.
+[1,12]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,12]<stderr>:Instructions for updating:
+[1,12]<stderr>:Use tf.cast instead.
+[1,4]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,4]<stderr>:Instructions for updating:
+[1,4]<stderr>:Use tf.cast instead.
+[1,7]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,7]<stderr>:Instructions for updating:
+[1,7]<stderr>:Use tf.cast instead.
+[1,5]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,5]<stderr>:Instructions for updating:
+[1,5]<stderr>:Use tf.cast instead.
+[1,10]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,10]<stderr>:Instructions for updating:
+[1,10]<stderr>:Use tf.cast instead.
+[1,8]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,8]<stderr>:Instructions for updating:
+[1,8]<stderr>:Use tf.cast instead.
+[1,11]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,11]<stderr>:Instructions for updating:
+[1,11]<stderr>:Use tf.cast instead.
+[1,1]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,1]<stderr>:Instructions for updating:
+[1,1]<stderr>:Use tf.cast instead.
+[1,6]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,6]<stderr>:Instructions for updating:
+[1,6]<stderr>:Use tf.cast instead.
+[1,15]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,15]<stderr>:Instructions for updating:
+[1,15]<stderr>:Use tf.cast instead.
+[1,13]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,13]<stderr>:Instructions for updating:
+[1,13]<stderr>:Use tf.cast instead.
+[1,0]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,0]<stderr>:Instructions for updating:
+[1,0]<stderr>:Use tf.cast instead.
+[1,14]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,14]<stderr>:Instructions for updating:
+[1,14]<stderr>:Use tf.cast instead.
+[1,12]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,12]<stderr>:Instructions for updating:
+[1,12]<stderr>:Use tf.cast instead.
+[1,3]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,3]<stderr>:Instructions for updating:
+[1,3]<stderr>:Use tf.cast instead.
+[1,9]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,9]<stderr>:Instructions for updating:
+[1,9]<stderr>:Use tf.cast instead.
+[1,10]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,10]<stderr>:Instructions for updating:
+[1,10]<stderr>:Use tf.cast instead.
+[1,8]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,8]<stderr>:Instructions for updating:
+[1,8]<stderr>:Use tf.cast instead.
+[1,11]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,11]<stderr>:Instructions for updating:
+[1,11]<stderr>:Use tf.cast instead.
+[1,1]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,1]<stderr>:Instructions for updating:
+[1,1]<stderr>:Use tf.cast instead.
+[1,13]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,13]<stderr>:Instructions for updating:
+[1,13]<stderr>:Use tf.cast instead.
+[1,0]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,0]<stderr>:Instructions for updating:
+[1,0]<stderr>:Use tf.cast instead.
+[1,3]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,3]<stderr>:Instructions for updating:
+[1,3]<stderr>:Use tf.cast instead.
+[1,9]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,9]<stderr>:Instructions for updating:
+[1,9]<stderr>:Use tf.cast instead.
+[1,2]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:209: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,2]<stderr>:Instructions for updating:
+[1,2]<stderr>:Use tf.cast instead.
+[1,2]<stderr>:WARNING:tensorflow:From /home/gcp_ghobadi_google_mit_edu/gpu-tf/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+[1,2]<stderr>:Instructions for updating:
+[1,2]<stderr>:Use tf.cast instead.
+[1,0]<stdout>:Running warmup...
+[1,5]<stderr>:2020-04-12 19:09:34.921128: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,4]<stderr>:2020-04-12 19:09:34.921124: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,7]<stderr>:2020-04-12 19:09:34.921426: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,6]<stderr>:2020-04-12 19:09:34.943152: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,14]<stderr>:2020-04-12 19:09:35.017798: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,15]<stderr>:2020-04-12 19:09:35.018330: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,12]<stderr>:2020-04-12 19:09:35.039258: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,13]<stderr>:2020-04-12 19:09:35.097252: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,0]<stderr>:2020-04-12 19:09:35.279352: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,10]<stderr>:2020-04-12 19:09:35.296490: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,11]<stderr>:2020-04-12 19:09:35.314045: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,1]<stderr>:2020-04-12 19:09:35.329168: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,8]<stderr>:2020-04-12 19:09:35.346905: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,9]<stderr>:2020-04-12 19:09:35.352489: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,3]<stderr>:2020-04-12 19:09:35.369692: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,2]<stderr>:2020-04-12 19:09:37.139034: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+[1,0]<stdout>:Running benchmark...
+[1,0]<stdout>:TIME BEFORE ITER #0 is 1586718585.914645
+[1,0]<stdout>:TIME AFTER ITER #0 is 1586718586.387362
+[1,0]<stdout>:Iter #0: 135.4 img/sec per GPU took 0.472527
+[1,0]<stdout>:TIME BEFORE ITER #1 is 1586718586.387428
+[1,0]<stdout>:TIME AFTER ITER #1 is 1586718586.861823
+[1,0]<stdout>:Iter #1: 135.0 img/sec per GPU took 0.474226
+[1,0]<stdout>:TIME BEFORE ITER #2 is 1586718586.861910
+[1,0]<stdout>:TIME AFTER ITER #2 is 1586718587.331196
+[1,0]<stdout>:Iter #2: 136.4 img/sec per GPU took 0.469085
+[1,0]<stdout>:TIME BEFORE ITER #3 is 1586718587.331265
+[1,0]<stdout>:TIME AFTER ITER #3 is 1586718587.815929
+[1,0]<stdout>:Iter #3: 132.1 img/sec per GPU took 0.484475
+[1,0]<stdout>:TIME BEFORE ITER #4 is 1586718587.816016
+[1,0]<stdout>:TIME AFTER ITER #4 is 1586718588.312601
+[1,0]<stdout>:Iter #4: 128.9 img/sec per GPU took 0.496426
+[1,0]<stdout>:TIME BEFORE ITER #5 is 1586718588.312697
+[1,0]<stdout>:TIME AFTER ITER #5 is 1586718588.783698
+[1,0]<stdout>:Iter #5: 135.9 img/sec per GPU took 0.470792
+[1,0]<stdout>:TIME BEFORE ITER #6 is 1586718588.783773
+[1,0]<stdout>:TIME AFTER ITER #6 is 1586718589.264458
+[1,0]<stdout>:Iter #6: 133.2 img/sec per GPU took 0.480484
+[1,0]<stdout>:TIME BEFORE ITER #7 is 1586718589.264607
+[1,0]<stdout>:TIME AFTER ITER #7 is 1586718589.750129
+[1,0]<stdout>:Iter #7: 131.9 img/sec per GPU took 0.485311
+[1,0]<stdout>:TIME BEFORE ITER #8 is 1586718589.750242
+[1,0]<stdout>:TIME AFTER ITER #8 is 1586718590.221123
+[1,0]<stdout>:Iter #8: 136.0 img/sec per GPU took 0.470657
+[1,0]<stdout>:TIME BEFORE ITER #9 is 1586718590.221192
+[1,0]<stdout>:TIME AFTER ITER #9 is 1586718590.700020
+[1,0]<stdout>:Iter #9: 133.7 img/sec per GPU took 0.478649
+[1,0]<stdout>:TIME BEFORE ITER #10 is 1586718590.700088
+[1,0]<stdout>:TIME AFTER ITER #10 is 1586718591.202232
+[1,0]<stdout>:Iter #10: 127.5 img/sec per GPU took 0.501969
+[1,0]<stdout>:TIME BEFORE ITER #11 is 1586718591.202310
+[1,0]<stdout>:TIME AFTER ITER #11 is 1586718591.682309
+[1,0]<stdout>:Iter #11: 133.4 img/sec per GPU took 0.479812
+[1,0]<stdout>:TIME BEFORE ITER #12 is 1586718591.682388
+[1,0]<stdout>:TIME AFTER ITER #12 is 1586718592.160983
+[1,0]<stdout>:Iter #12: 133.8 img/sec per GPU took 0.478395
+[1,0]<stdout>:TIME BEFORE ITER #13 is 1586718592.161053
+[1,0]<stdout>:TIME AFTER ITER #13 is 1586718592.646486
+[1,0]<stdout>:Iter #13: 131.9 img/sec per GPU took 0.485268
+[1,0]<stdout>:TIME BEFORE ITER #14 is 1586718592.646579
+[1,0]<stdout>:TIME AFTER ITER #14 is 1586718593.137676
+[1,0]<stdout>:Iter #14: 130.4 img/sec per GPU took 0.490932
+[1,0]<stdout>:TIME BEFORE ITER #15 is 1586718593.137767
+[1,0]<stdout>:TIME AFTER ITER #15 is 1586718593.626754
+[1,0]<stdout>:Iter #15: 130.9 img/sec per GPU took 0.488760
+[1,0]<stdout>:TIME BEFORE ITER #16 is 1586718593.626817
+[1,0]<stdout>:TIME AFTER ITER #16 is 1586718594.115774
+[1,0]<stdout>:Iter #16: 130.9 img/sec per GPU took 0.488796
+[1,0]<stdout>:TIME BEFORE ITER #17 is 1586718594.115847
+[1,0]<stdout>:TIME AFTER ITER #17 is 1586718594.608249
+[1,0]<stdout>:Iter #17: 130.0 img/sec per GPU took 0.492233
+[1,0]<stdout>:TIME BEFORE ITER #18 is 1586718594.608621
+[1,0]<stdout>:TIME AFTER ITER #18 is 1586718595.107294
+[1,0]<stdout>:Iter #18: 128.4 img/sec per GPU took 0.498471
+[1,0]<stdout>:TIME BEFORE ITER #19 is 1586718595.107372
+[1,0]<stdout>:TIME AFTER ITER #19 is 1586718595.585737
+[1,0]<stdout>:Iter #19: 133.8 img/sec per GPU took 0.478217
+[1,0]<stdout>:TIME BEFORE ITER #20 is 1586718595.585807
+[1,0]<stdout>:TIME AFTER ITER #20 is 1586718596.077204
+[1,0]<stdout>:Iter #20: 130.3 img/sec per GPU took 0.491250
+[1,0]<stdout>:TIME BEFORE ITER #21 is 1586718596.077272
+[1,0]<stdout>:TIME AFTER ITER #21 is 1586718596.573715
+[1,0]<stdout>:Iter #21: 129.0 img/sec per GPU took 0.496272
+[1,0]<stdout>:TIME BEFORE ITER #22 is 1586718596.573811
+[1,0]<stdout>:TIME AFTER ITER #22 is 1586718597.078759
+[1,0]<stdout>:Iter #22: 126.8 img/sec per GPU took 0.504686
+[1,0]<stdout>:TIME BEFORE ITER #23 is 1586718597.078865
+[1,0]<stdout>:TIME AFTER ITER #23 is 1586718597.560672
+[1,0]<stdout>:Iter #23: 132.9 img/sec per GPU took 0.481559
+[1,0]<stdout>:TIME BEFORE ITER #24 is 1586718597.560766
+[1,0]<stdout>:TIME AFTER ITER #24 is 1586718598.055413
+[1,0]<stdout>:Iter #24: 129.5 img/sec per GPU took 0.494373
+[1,0]<stdout>:TIME BEFORE ITER #25 is 1586718598.055512
+[1,0]<stdout>:TIME AFTER ITER #25 is 1586718598.552786
+[1,0]<stdout>:Iter #25: 128.8 img/sec per GPU took 0.497039
+[1,0]<stdout>:TIME BEFORE ITER #26 is 1586718598.552856
+[1,0]<stdout>:TIME AFTER ITER #26 is 1586718599.051119
+[1,0]<stdout>:Iter #26: 128.5 img/sec per GPU took 0.498060
+[1,0]<stdout>:TIME BEFORE ITER #27 is 1586718599.051185
+[1,0]<stdout>:TIME AFTER ITER #27 is 1586718599.547766
+[1,0]<stdout>:Iter #27: 128.9 img/sec per GPU took 0.496356
+[1,0]<stdout>:TIME BEFORE ITER #28 is 1586718599.547835
+[1,0]<stdout>:TIME AFTER ITER #28 is 1586718600.043548
+[1,0]<stdout>:Iter #28: 129.2 img/sec per GPU took 0.495539
+[1,0]<stdout>:TIME BEFORE ITER #29 is 1586718600.043615
+[1,0]<stdout>:TIME AFTER ITER #29 is 1586718600.538695
+[1,0]<stdout>:Iter #29: 129.3 img/sec per GPU took 0.494924
+[1,0]<stdout>:TIME BEFORE ITER #30 is 1586718600.538769
+[1,0]<stdout>:TIME AFTER ITER #30 is 1586718601.034973
+[1,0]<stdout>:Iter #30: 129.0 img/sec per GPU took 0.496030
+[1,0]<stdout>:TIME BEFORE ITER #31 is 1586718601.035042
+[1,0]<stdout>:TIME AFTER ITER #31 is 1586718601.556338
+[1,0]<stdout>:Iter #31: 122.8 img/sec per GPU took 0.521134
+[1,0]<stdout>:TIME BEFORE ITER #32 is 1586718601.556422
+[1,0]<stdout>:TIME AFTER ITER #32 is 1586718602.062382
+[1,0]<stdout>:Iter #32: 126.5 img/sec per GPU took 0.505743
+[1,0]<stdout>:TIME BEFORE ITER #33 is 1586718602.062453
+[1,0]<stdout>:TIME AFTER ITER #33 is 1586718602.556469
+[1,0]<stdout>:Iter #33: 129.6 img/sec per GPU took 0.493782
+[1,0]<stdout>:TIME BEFORE ITER #34 is 1586718602.556541
+[1,0]<stdout>:TIME AFTER ITER #34 is 1586718603.062755
+[1,0]<stdout>:Iter #34: 126.5 img/sec per GPU took 0.506044
+[1,0]<stdout>:TIME BEFORE ITER #35 is 1586718603.062853
+[1,0]<stdout>:TIME AFTER ITER #35 is 1586718603.569485
+[1,0]<stdout>:Iter #35: 126.4 img/sec per GPU took 0.506400
+[1,0]<stdout>:TIME BEFORE ITER #36 is 1586718603.569565
+[1,0]<stdout>:TIME AFTER ITER #36 is 1586718604.075108
+[1,0]<stdout>:Iter #36: 126.6 img/sec per GPU took 0.505353
+[1,0]<stdout>:TIME BEFORE ITER #37 is 1586718604.075184
+[1,0]<stdout>:TIME AFTER ITER #37 is 1586718604.585021
+[1,0]<stdout>:Iter #37: 125.6 img/sec per GPU took 0.509676
+[1,0]<stdout>:TIME BEFORE ITER #38 is 1586718604.585094
+[1,0]<stdout>:TIME AFTER ITER #38 is 1586718605.091379
+[1,0]<stdout>:Iter #38: 126.5 img/sec per GPU took 0.506128
+[1,0]<stdout>:TIME BEFORE ITER #39 is 1586718605.091455
+[1,0]<stdout>:TIME AFTER ITER #39 is 1586718605.603391
+[1,0]<stdout>:Iter #39: 125.1 img/sec per GPU took 0.511762
+[1,0]<stdout>:TIME BEFORE ITER #40 is 1586718605.603473
+[1,0]<stdout>:TIME AFTER ITER #40 is 1586718606.113247
+[1,0]<stdout>:Iter #40: 125.6 img/sec per GPU took 0.509616
+[1,0]<stdout>:TIME BEFORE ITER #41 is 1586718606.113326
+[1,0]<stdout>:TIME AFTER ITER #41 is 1586718606.622532
+[1,0]<stdout>:Iter #41: 125.7 img/sec per GPU took 0.509038
+[1,0]<stdout>:TIME BEFORE ITER #42 is 1586718606.622603
+[1,0]<stdout>:TIME AFTER ITER #42 is 1586718607.131615
+[1,0]<stdout>:Iter #42: 125.8 img/sec per GPU took 0.508851
+[1,0]<stdout>:TIME BEFORE ITER #43 is 1586718607.131685
+[1,0]<stdout>:TIME AFTER ITER #43 is 1586718607.639033
+[1,0]<stdout>:Iter #43: 126.2 img/sec per GPU took 0.507192
+[1,0]<stdout>:TIME BEFORE ITER #44 is 1586718607.639110
+[1,0]<stdout>:TIME AFTER ITER #44 is 1586718608.149817
+[1,0]<stdout>:Iter #44: 125.4 img/sec per GPU took 0.510531
+[1,0]<stdout>:TIME BEFORE ITER #45 is 1586718608.149888
+[1,0]<stdout>:TIME AFTER ITER #45 is 1586718608.659193
+[1,0]<stdout>:Iter #45: 125.7 img/sec per GPU took 0.509136
+[1,0]<stdout>:TIME BEFORE ITER #46 is 1586718608.659257
+[1,0]<stdout>:TIME AFTER ITER #46 is 1586718609.174792
+[1,0]<stdout>:Iter #46: 124.2 img/sec per GPU took 0.515386
+[1,0]<stdout>:TIME BEFORE ITER #47 is 1586718609.174860
+[1,0]<stdout>:TIME AFTER ITER #47 is 1586718609.683648
+[1,0]<stdout>:Iter #47: 125.8 img/sec per GPU took 0.508620
+[1,0]<stdout>:TIME BEFORE ITER #48 is 1586718609.683719
+[1,0]<stdout>:TIME AFTER ITER #48 is 1586718610.202270
+[1,0]<stdout>:Iter #48: 123.5 img/sec per GPU took 0.518385
+[1,0]<stdout>:TIME BEFORE ITER #49 is 1586718610.202368
+[1,0]<stdout>:TIME AFTER ITER #49 is 1586718610.717863
+[1,0]<stdout>:Iter #49: 124.2 img/sec per GPU took 0.515249
+[1,0]<stdout>:TIME BEFORE ITER #50 is 1586718610.717948
+[1,0]<stdout>:TIME AFTER ITER #50 is 1586718611.239862
+[1,0]<stdout>:Iter #50: 122.7 img/sec per GPU took 0.521724
+[1,0]<stdout>:TIME BEFORE ITER #51 is 1586718611.239929
+[1,0]<stdout>:TIME AFTER ITER #51 is 1586718611.755068
+[1,0]<stdout>:Iter #51: 124.3 img/sec per GPU took 0.514983
+[1,0]<stdout>:TIME BEFORE ITER #52 is 1586718611.755133
+[1,0]<stdout>:TIME AFTER ITER #52 is 1586718612.261938
+[1,0]<stdout>:Iter #52: 126.3 img/sec per GPU took 0.506660
+[1,0]<stdout>:TIME BEFORE ITER #53 is 1586718612.262016
+[1,0]<stdout>:TIME AFTER ITER #53 is 1586718612.781467
+[1,0]<stdout>:Iter #53: 123.3 img/sec per GPU took 0.519257
+[1,0]<stdout>:TIME BEFORE ITER #54 is 1586718612.781559
+[1,0]<stdout>:TIME AFTER ITER #54 is 1586718613.302849
+[1,0]<stdout>:Iter #54: 122.8 img/sec per GPU took 0.521045
+[1,0]<stdout>:TIME BEFORE ITER #55 is 1586718613.302958
+[1,0]<stdout>:TIME AFTER ITER #55 is 1586718613.825053
+[1,0]<stdout>:Iter #55: 122.6 img/sec per GPU took 0.521863
+[1,0]<stdout>:TIME BEFORE ITER #56 is 1586718613.825134
+[1,0]<stdout>:TIME AFTER ITER #56 is 1586718614.345547
+[1,0]<stdout>:Iter #56: 123.0 img/sec per GPU took 0.520259
+[1,0]<stdout>:TIME BEFORE ITER #57 is 1586718614.345610
+[1,0]<stdout>:TIME AFTER ITER #57 is 1586718614.862671
+[1,0]<stdout>:Iter #57: 123.8 img/sec per GPU took 0.516902
+[1,0]<stdout>:TIME BEFORE ITER #58 is 1586718614.862742
+[1,0]<stdout>:TIME AFTER ITER #58 is 1586718615.377458
+[1,0]<stdout>:Iter #58: 124.4 img/sec per GPU took 0.514567
+[1,0]<stdout>:TIME BEFORE ITER #59 is 1586718615.377523
+[1,0]<stdout>:TIME AFTER ITER #59 is 1586718615.896709
+[1,0]<stdout>:Iter #59: 123.3 img/sec per GPU took 0.519037
+[1,0]<stdout>:TIME BEFORE ITER #60 is 1586718615.896771
+[1,0]<stdout>:TIME AFTER ITER #60 is 1586718616.416849
+[1,0]<stdout>:Iter #60: 123.1 img/sec per GPU took 0.519916
+[1,0]<stdout>:TIME BEFORE ITER #61 is 1586718616.416953
+[1,0]<stdout>:TIME AFTER ITER #61 is 1586718616.928509
+[1,0]<stdout>:Iter #61: 125.2 img/sec per GPU took 0.511385
+[1,0]<stdout>:TIME BEFORE ITER #62 is 1586718616.928582
+[1,0]<stdout>:TIME AFTER ITER #62 is 1586718617.449014
+[1,0]<stdout>:Iter #62: 123.0 img/sec per GPU took 0.520266
+[1,0]<stdout>:TIME BEFORE ITER #63 is 1586718617.449092
+[1,0]<stdout>:TIME AFTER ITER #63 is 1586718617.959623
+[1,0]<stdout>:Iter #63: 125.4 img/sec per GPU took 0.510341
+[1,0]<stdout>:TIME BEFORE ITER #64 is 1586718617.959689
+[1,0]<stdout>:TIME AFTER ITER #64 is 1586718618.468377
+[1,0]<stdout>:Iter #64: 125.9 img/sec per GPU took 0.508536
+[1,0]<stdout>:TIME BEFORE ITER #65 is 1586718618.468464
+[1,0]<stdout>:TIME AFTER ITER #65 is 1586718618.981150
+[1,0]<stdout>:Iter #65: 124.9 img/sec per GPU took 0.512493
+[1,0]<stdout>:TIME BEFORE ITER #66 is 1586718618.981217
+[1,0]<stdout>:TIME AFTER ITER #66 is 1586718619.486993
+[1,0]<stdout>:Iter #66: 126.6 img/sec per GPU took 0.505616
+[1,0]<stdout>:TIME BEFORE ITER #67 is 1586718619.487060
+[1,0]<stdout>:TIME AFTER ITER #67 is 1586718619.999434
+[1,0]<stdout>:Iter #67: 124.9 img/sec per GPU took 0.512219
+[1,0]<stdout>:TIME BEFORE ITER #68 is 1586718619.999501
+[1,0]<stdout>:TIME AFTER ITER #68 is 1586718620.513585
+[1,0]<stdout>:Iter #68: 124.5 img/sec per GPU took 0.513896
+[1,0]<stdout>:TIME BEFORE ITER #69 is 1586718620.513656
+[1,0]<stdout>:TIME AFTER ITER #69 is 1586718621.026634
+[1,0]<stdout>:Iter #69: 124.8 img/sec per GPU took 0.512819
+[1,0]<stdout>:TIME BEFORE ITER #70 is 1586718621.026707
+[1,0]<stdout>:TIME AFTER ITER #70 is 1586718621.528336
+[1,0]<stdout>:Iter #70: 127.6 img/sec per GPU took 0.501478
+[1,0]<stdout>:TIME BEFORE ITER #71 is 1586718621.528403
+[1,0]<stdout>:TIME AFTER ITER #71 is 1586718622.031163
+[1,0]<stdout>:Iter #71: 127.3 img/sec per GPU took 0.502582
+[1,0]<stdout>:TIME BEFORE ITER #72 is 1586718622.031257
+[1,0]<stdout>:TIME AFTER ITER #72 is 1586718622.538849
+[1,0]<stdout>:Iter #72: 126.1 img/sec per GPU took 0.507369
+[1,0]<stdout>:TIME BEFORE ITER #73 is 1586718622.538940
+[1,0]<stdout>:TIME AFTER ITER #73 is 1586718623.034771
+[1,0]<stdout>:Iter #73: 129.1 img/sec per GPU took 0.495671
+[1,0]<stdout>:TIME BEFORE ITER #74 is 1586718623.034843
+[1,0]<stdout>:TIME AFTER ITER #74 is 1586718623.547806
+[1,0]<stdout>:Iter #74: 124.8 img/sec per GPU took 0.512802
+[1,0]<stdout>:TIME BEFORE ITER #75 is 1586718623.547884
+[1,0]<stdout>:TIME AFTER ITER #75 is 1586718624.052366
+[1,0]<stdout>:Iter #75: 126.9 img/sec per GPU took 0.504323
+[1,0]<stdout>:TIME BEFORE ITER #76 is 1586718624.052438
+[1,0]<stdout>:TIME AFTER ITER #76 is 1586718624.561711
+[1,0]<stdout>:Iter #76: 125.7 img/sec per GPU took 0.509110
+[1,0]<stdout>:TIME BEFORE ITER #77 is 1586718624.561787
+[1,0]<stdout>:TIME AFTER ITER #77 is 1586718625.073820
+[1,0]<stdout>:Iter #77: 125.0 img/sec per GPU took 0.511869
+[1,0]<stdout>:TIME BEFORE ITER #78 is 1586718625.073886
+[1,0]<stdout>:TIME AFTER ITER #78 is 1586718625.578246
+[1,0]<stdout>:Iter #78: 126.9 img/sec per GPU took 0.504159
+[1,0]<stdout>:TIME BEFORE ITER #79 is 1586718625.578317
+[1,0]<stdout>:TIME AFTER ITER #79 is 1586718626.088451
+[1,0]<stdout>:Iter #79: 125.5 img/sec per GPU took 0.509980
+[1,0]<stdout>:TIME BEFORE ITER #80 is 1586718626.088548
+[1,0]<stdout>:TIME AFTER ITER #80 is 1586718626.600825
+[1,0]<stdout>:Iter #80: 125.0 img/sec per GPU took 0.512084
+[1,0]<stdout>:TIME BEFORE ITER #81 is 1586718626.600900
+[1,0]<stdout>:TIME AFTER ITER #81 is 1586718627.109591
+[1,0]<stdout>:Iter #81: 125.9 img/sec per GPU took 0.508525
+[1,0]<stdout>:TIME BEFORE ITER #82 is 1586718627.109653
+[1,0]<stdout>:TIME AFTER ITER #82 is 1586718627.620237
+[1,0]<stdout>:Iter #82: 125.4 img/sec per GPU took 0.510434
+[1,0]<stdout>:TIME BEFORE ITER #83 is 1586718627.620309
+[1,0]<stdout>:TIME AFTER ITER #83 is 1586718628.129842
+[1,0]<stdout>:Iter #83: 125.6 img/sec per GPU took 0.509389
+[1,0]<stdout>:TIME BEFORE ITER #84 is 1586718628.129942
+[1,0]<stdout>:TIME AFTER ITER #84 is 1586718628.639021
+[1,0]<stdout>:Iter #84: 125.8 img/sec per GPU took 0.508869
+[1,0]<stdout>:TIME BEFORE ITER #85 is 1586718628.639102
+[1,0]<stdout>:TIME AFTER ITER #85 is 1586718629.145775
+[1,0]<stdout>:Iter #85: 126.4 img/sec per GPU took 0.506505
+[1,0]<stdout>:TIME BEFORE ITER #86 is 1586718629.145849
+[1,0]<stdout>:TIME AFTER ITER #86 is 1586718629.659280
+[1,0]<stdout>:Iter #86: 124.7 img/sec per GPU took 0.513233
+[1,0]<stdout>:TIME BEFORE ITER #87 is 1586718629.659366
+[1,0]<stdout>:TIME AFTER ITER #87 is 1586718630.170753
+[1,0]<stdout>:Iter #87: 125.2 img/sec per GPU took 0.511201
+[1,0]<stdout>:TIME BEFORE ITER #88 is 1586718630.170834
+[1,0]<stdout>:TIME AFTER ITER #88 is 1586718630.681654
+[1,0]<stdout>:Iter #88: 125.4 img/sec per GPU took 0.510567
+[1,0]<stdout>:TIME BEFORE ITER #89 is 1586718630.681730
+[1,0]<stdout>:TIME AFTER ITER #89 is 1586718631.192078
+[1,0]<stdout>:Iter #89: 125.4 img/sec per GPU took 0.510173
+[1,0]<stdout>:TIME BEFORE ITER #90 is 1586718631.192146
+[1,0]<stdout>:TIME AFTER ITER #90 is 1586718631.700654
+[1,0]<stdout>:Iter #90: 125.9 img/sec per GPU took 0.508348
+[1,0]<stdout>:TIME BEFORE ITER #91 is 1586718631.700743
+[1,0]<stdout>:TIME AFTER ITER #91 is 1586718632.206905
+[1,0]<stdout>:Iter #91: 126.5 img/sec per GPU took 0.505961
+[1,0]<stdout>:TIME BEFORE ITER #92 is 1586718632.206995
+[1,0]<stdout>:TIME AFTER ITER #92 is 1586718632.717566
+[1,0]<stdout>:Iter #92: 125.4 img/sec per GPU took 0.510378
+[1,0]<stdout>:TIME BEFORE ITER #93 is 1586718632.717639
+[1,0]<stdout>:TIME AFTER ITER #93 is 1586718633.233530
+[1,0]<stdout>:Iter #93: 124.1 img/sec per GPU took 0.515693
+[1,0]<stdout>:TIME BEFORE ITER #94 is 1586718633.233595
+[1,0]<stdout>:TIME AFTER ITER #94 is 1586718633.732299
+[1,0]<stdout>:Iter #94: 128.4 img/sec per GPU took 0.498512
+[1,0]<stdout>:TIME BEFORE ITER #95 is 1586718633.732369
+[1,0]<stdout>:TIME AFTER ITER #95 is 1586718634.250534
+[1,0]<stdout>:Iter #95: 123.6 img/sec per GPU took 0.517933
+[1,0]<stdout>:TIME BEFORE ITER #96 is 1586718634.250610
+[1,0]<stdout>:TIME AFTER ITER #96 is 1586718634.748174
+[1,0]<stdout>:Iter #96: 128.7 img/sec per GPU took 0.497362
+[1,0]<stdout>:TIME BEFORE ITER #97 is 1586718634.748252
+[1,0]<stdout>:TIME AFTER ITER #97 is 1586718635.252912
+[1,0]<stdout>:Iter #97: 126.9 img/sec per GPU took 0.504404
+[1,0]<stdout>:TIME BEFORE ITER #98 is 1586718635.252990
+[1,0]<stdout>:TIME AFTER ITER #98 is 1586718635.751463
+[1,0]<stdout>:Iter #98: 128.4 img/sec per GPU took 0.498276
+[1,0]<stdout>:TIME BEFORE ITER #99 is 1586718635.751532
+[1,0]<stdout>:TIME AFTER ITER #99 is 1586718636.251223
+[1,0]<stdout>:Iter #99: 128.1 img/sec per GPU took 0.499502
+[1,0]<stdout>:TIME BEFORE ITER #100 is 1586718636.251290
+[1,0]<stdout>:TIME AFTER ITER #100 is 1586718636.759119
+[1,0]<stdout>:Iter #100: 126.1 img/sec per GPU took 0.507661
+[1,0]<stdout>:TIME BEFORE ITER #101 is 1586718636.759209
+[1,0]<stdout>:TIME AFTER ITER #101 is 1586718637.249417
+[1,0]<stdout>:Iter #101: 130.6 img/sec per GPU took 0.489993
+[1,0]<stdout>:TIME BEFORE ITER #102 is 1586718637.249487
+[1,0]<stdout>:TIME AFTER ITER #102 is 1586718637.747101
+[1,0]<stdout>:Iter #102: 128.7 img/sec per GPU took 0.497461
+[1,0]<stdout>:TIME BEFORE ITER #103 is 1586718637.747184
+[1,0]<stdout>:TIME AFTER ITER #103 is 1586718638.242434
+[1,0]<stdout>:Iter #103: 129.3 img/sec per GPU took 0.495085
+[1,0]<stdout>:TIME BEFORE ITER #104 is 1586718638.242505
+[1,0]<stdout>:TIME AFTER ITER #104 is 1586718638.747652
+[1,0]<stdout>:Iter #104: 126.7 img/sec per GPU took 0.504977
+[1,0]<stdout>:TIME BEFORE ITER #105 is 1586718638.747734
+[1,0]<stdout>:TIME AFTER ITER #105 is 1586718639.252213
+[1,0]<stdout>:Iter #105: 126.9 img/sec per GPU took 0.504284
+[1,0]<stdout>:TIME BEFORE ITER #106 is 1586718639.252283
+[1,0]<stdout>:TIME AFTER ITER #106 is 1586718639.739803
+[1,0]<stdout>:Iter #106: 131.3 img/sec per GPU took 0.487346
+[1,0]<stdout>:TIME BEFORE ITER #107 is 1586718639.739867
+[1,0]<stdout>:TIME AFTER ITER #107 is 1586718640.233961
+[1,0]<stdout>:Iter #107: 129.6 img/sec per GPU took 0.493936
+[1,0]<stdout>:TIME BEFORE ITER #108 is 1586718640.234339
+[1,0]<stdout>:TIME AFTER ITER #108 is 1586718640.731616
+[1,0]<stdout>:Iter #108: 128.8 img/sec per GPU took 0.497026
+[1,0]<stdout>:TIME BEFORE ITER #109 is 1586718640.731706
+[1,0]<stdout>:TIME AFTER ITER #109 is 1586718641.228021
+[1,0]<stdout>:Iter #109: 129.0 img/sec per GPU took 0.496090
+[1,0]<stdout>:TIME BEFORE ITER #110 is 1586718641.228104
+[1,0]<stdout>:TIME AFTER ITER #110 is 1586718641.718907
+[1,0]<stdout>:Iter #110: 130.5 img/sec per GPU took 0.490604
+[1,0]<stdout>:TIME BEFORE ITER #111 is 1586718641.718980
+[1,0]<stdout>:TIME AFTER ITER #111 is 1586718642.216295
+[1,0]<stdout>:Iter #111: 128.7 img/sec per GPU took 0.497159
+[1,0]<stdout>:TIME BEFORE ITER #112 is 1586718642.216363
+[1,0]<stdout>:TIME AFTER ITER #112 is 1586718642.706336
+[1,0]<stdout>:Iter #112: 130.7 img/sec per GPU took 0.489815
+[1,0]<stdout>:TIME BEFORE ITER #113 is 1586718642.706414
+[1,0]<stdout>:TIME AFTER ITER #113 is 1586718643.192942
+[1,0]<stdout>:Iter #113: 131.6 img/sec per GPU took 0.486303
+[1,0]<stdout>:TIME BEFORE ITER #114 is 1586718643.193016
+[1,0]<stdout>:TIME AFTER ITER #114 is 1586718643.680856
+[1,0]<stdout>:Iter #114: 131.2 img/sec per GPU took 0.487629
+[1,0]<stdout>:TIME BEFORE ITER #115 is 1586718643.680949
+[1,0]<stdout>:TIME AFTER ITER #115 is 1586718644.171867
+[1,0]<stdout>:Iter #115: 130.4 img/sec per GPU took 0.490716
+[1,0]<stdout>:TIME BEFORE ITER #116 is 1586718644.171941
+[1,0]<stdout>:TIME AFTER ITER #116 is 1586718644.665940
+[1,0]<stdout>:Iter #116: 129.6 img/sec per GPU took 0.493806
+[1,0]<stdout>:TIME BEFORE ITER #117 is 1586718644.666023
+[1,0]<stdout>:TIME AFTER ITER #117 is 1586718645.148741
+[1,0]<stdout>:Iter #117: 132.6 img/sec per GPU took 0.482528
+[1,0]<stdout>:TIME BEFORE ITER #118 is 1586718645.148832
+[1,0]<stdout>:TIME AFTER ITER #118 is 1586718645.650192
+[1,0]<stdout>:Iter #118: 127.7 img/sec per GPU took 0.501145
+[1,0]<stdout>:TIME BEFORE ITER #119 is 1586718645.650266
+[1,0]<stdout>:TIME AFTER ITER #119 is 1586718646.135022
+[1,0]<stdout>:Iter #119: 132.1 img/sec per GPU took 0.484575
+[1,0]<stdout>:TIME BEFORE ITER #120 is 1586718646.135085
+[1,0]<stdout>:TIME AFTER ITER #120 is 1586718646.651788
+[1,0]<stdout>:Iter #120: 123.9 img/sec per GPU took 0.516544
+[1,0]<stdout>:TIME BEFORE ITER #121 is 1586718646.651850
+[1,0]<stdout>:TIME AFTER ITER #121 is 1586718647.145743
+[1,0]<stdout>:Iter #121: 129.6 img/sec per GPU took 0.493739
+[1,0]<stdout>:TIME BEFORE ITER #122 is 1586718647.145823
+[1,0]<stdout>:TIME AFTER ITER #122 is 1586718647.629624
+[1,0]<stdout>:Iter #122: 132.3 img/sec per GPU took 0.483596
+[1,0]<stdout>:TIME BEFORE ITER #123 is 1586718647.629719
+[1,0]<stdout>:TIME AFTER ITER #123 is 1586718648.114772
+[1,0]<stdout>:Iter #123: 132.1 img/sec per GPU took 0.484476
+[1,0]<stdout>:TIME BEFORE ITER #124 is 1586718648.114852
+[1,0]<stdout>:TIME AFTER ITER #124 is 1586718648.598276
+[1,0]<stdout>:Iter #124: 132.4 img/sec per GPU took 0.483210
+[1,0]<stdout>:TIME BEFORE ITER #125 is 1586718648.598344
+[1,0]<stdout>:TIME AFTER ITER #125 is 1586718649.109152
+[1,0]<stdout>:Iter #125: 125.3 img/sec per GPU took 0.510600
+[1,0]<stdout>:TIME BEFORE ITER #126 is 1586718649.109229
+[1,0]<stdout>:TIME AFTER ITER #126 is 1586718649.591499
+[1,0]<stdout>:Iter #126: 132.8 img/sec per GPU took 0.482091
+[1,0]<stdout>:TIME BEFORE ITER #127 is 1586718649.591587
+[1,0]<stdout>:TIME AFTER ITER #127 is 1586718650.086620
+[1,0]<stdout>:Iter #127: 129.3 img/sec per GPU took 0.494837
+[1,0]<stdout>:TIME BEFORE ITER #128 is 1586718650.086716
+[1,0]<stdout>:TIME AFTER ITER #128 is 1586718650.568843
+[1,0]<stdout>:Iter #128: 132.8 img/sec per GPU took 0.481937
+[1,0]<stdout>:TIME BEFORE ITER #129 is 1586718650.568946
+[1,0]<stdout>:TIME AFTER ITER #129 is 1586718651.065883
+[1,0]<stdout>:Iter #129: 128.8 img/sec per GPU took 0.496732
+[1,0]<stdout>:TIME BEFORE ITER #130 is 1586718651.065977
+[1,0]<stdout>:TIME AFTER ITER #130 is 1586718651.564688
+[1,0]<stdout>:Iter #130: 128.4 img/sec per GPU took 0.498511
+[1,0]<stdout>:TIME BEFORE ITER #131 is 1586718651.564774
+[1,0]<stdout>:TIME AFTER ITER #131 is 1586718652.058604
+[1,0]<stdout>:Iter #131: 129.7 img/sec per GPU took 0.493622
+[1,0]<stdout>:TIME BEFORE ITER #132 is 1586718652.058867
+[1,0]<stdout>:TIME AFTER ITER #132 is 1586718652.539263
+[1,0]<stdout>:Iter #132: 133.3 img/sec per GPU took 0.480198
+[1,0]<stdout>:TIME BEFORE ITER #133 is 1586718652.539327
+[1,0]<stdout>:TIME AFTER ITER #133 is 1586718653.034150
+[1,0]<stdout>:Iter #133: 129.4 img/sec per GPU took 0.494648
+[1,0]<stdout>:TIME BEFORE ITER #134 is 1586718653.034226
+[1,0]<stdout>:TIME AFTER ITER #134 is 1586718653.514705
+[1,0]<stdout>:Iter #134: 133.3 img/sec per GPU took 0.480283
+[1,0]<stdout>:TIME BEFORE ITER #135 is 1586718653.514790
+[1,0]<stdout>:TIME AFTER ITER #135 is 1586718654.007168
+[1,0]<stdout>:Iter #135: 130.0 img/sec per GPU took 0.492173
+[1,0]<stdout>:TIME BEFORE ITER #136 is 1586718654.007256
+[1,0]<stdout>:TIME AFTER ITER #136 is 1586718654.501238
+[1,0]<stdout>:Iter #136: 129.6 img/sec per GPU took 0.493777
+[1,0]<stdout>:TIME BEFORE ITER #137 is 1586718654.501318
+[1,0]<stdout>:TIME AFTER ITER #137 is 1586718654.987204
+[1,0]<stdout>:Iter #137: 131.8 img/sec per GPU took 0.485676
+[1,0]<stdout>:TIME BEFORE ITER #138 is 1586718654.987288
+[1,0]<stdout>:TIME AFTER ITER #138 is 1586718655.460600
+[1,0]<stdout>:Iter #138: 135.3 img/sec per GPU took 0.473165
+[1,0]<stdout>:TIME BEFORE ITER #139 is 1586718655.460673
+[1,0]<stdout>:TIME AFTER ITER #139 is 1586718655.944842
+[1,0]<stdout>:Iter #139: 132.2 img/sec per GPU took 0.483980
+[1,0]<stdout>:TIME BEFORE ITER #140 is 1586718655.944906
+[1,0]<stdout>:TIME AFTER ITER #140 is 1586718656.461953
+[1,0]<stdout>:Iter #140: 123.9 img/sec per GPU took 0.516508
+[1,0]<stdout>:TIME BEFORE ITER #141 is 1586718656.462020
+[1,0]<stdout>:TIME AFTER ITER #141 is 1586718656.947512
+[1,0]<stdout>:Iter #141: 131.9 img/sec per GPU took 0.485296
+[1,0]<stdout>:TIME BEFORE ITER #142 is 1586718656.947597
+[1,0]<stdout>:TIME AFTER ITER #142 is 1586718657.433676
+[1,0]<stdout>:Iter #142: 131.7 img/sec per GPU took 0.485897
+[1,0]<stdout>:TIME BEFORE ITER #143 is 1586718657.433746
+[1,0]<stdout>:TIME AFTER ITER #143 is 1586718657.918421
+[1,0]<stdout>:Iter #143: 132.1 img/sec per GPU took 0.484460
+[1,0]<stdout>:TIME BEFORE ITER #144 is 1586718657.918529
+[1,0]<stdout>:TIME AFTER ITER #144 is 1586718658.405955
+[1,0]<stdout>:Iter #144: 131.4 img/sec per GPU took 0.487166
+[1,0]<stdout>:TIME BEFORE ITER #145 is 1586718658.406035
+[1,0]<stdout>:TIME AFTER ITER #145 is 1586718658.888960
+[1,0]<stdout>:Iter #145: 132.6 img/sec per GPU took 0.482729
+[1,0]<stdout>:TIME BEFORE ITER #146 is 1586718658.889037
+[1,0]<stdout>:TIME AFTER ITER #146 is 1586718659.401901
+[1,0]<stdout>:Iter #146: 124.8 img/sec per GPU took 0.512667
+[1,0]<stdout>:TIME BEFORE ITER #147 is 1586718659.401976
+[1,0]<stdout>:TIME AFTER ITER #147 is 1586718659.892303
+[1,0]<stdout>:Iter #147: 130.6 img/sec per GPU took 0.490113
+[1,0]<stdout>:TIME BEFORE ITER #148 is 1586718659.892389
+[1,0]<stdout>:TIME AFTER ITER #148 is 1586718660.373007
+[1,0]<stdout>:Iter #148: 133.2 img/sec per GPU took 0.480413
+[1,0]<stdout>:TIME BEFORE ITER #149 is 1586718660.373076
+[1,0]<stdout>:TIME AFTER ITER #149 is 1586718660.851487
+[1,0]<stdout>:Iter #149: 133.8 img/sec per GPU took 0.478259
+[1,0]<stdout>:TIME BEFORE ITER #150 is 1586718660.851583
+[1,0]<stdout>:TIME AFTER ITER #150 is 1586718661.333131
+[1,0]<stdout>:Iter #150: 133.0 img/sec per GPU took 0.481336
+[1,0]<stdout>:TIME BEFORE ITER #151 is 1586718661.333205
+[1,0]<stdout>:TIME AFTER ITER #151 is 1586718661.813347
+[1,0]<stdout>:Iter #151: 133.4 img/sec per GPU took 0.479940
+[1,0]<stdout>:TIME BEFORE ITER #152 is 1586718661.813432
+[1,0]<stdout>:TIME AFTER ITER #152 is 1586718662.300582
+[1,0]<stdout>:Iter #152: 131.4 img/sec per GPU took 0.486952
+[1,0]<stdout>:TIME BEFORE ITER #153 is 1586718662.300651
+[1,0]<stdout>:TIME AFTER ITER #153 is 1586718662.795114
+[1,0]<stdout>:Iter #153: 129.5 img/sec per GPU took 0.494296
+[1,0]<stdout>:TIME BEFORE ITER #154 is 1586718662.795192
+[1,0]<stdout>:TIME AFTER ITER #154 is 1586718663.282579
+[1,0]<stdout>:Iter #154: 131.4 img/sec per GPU took 0.487222
+[1,0]<stdout>:TIME BEFORE ITER #155 is 1586718663.282657
+[1,0]<stdout>:TIME AFTER ITER #155 is 1586718663.754498
+[1,0]<stdout>:Iter #155: 135.7 img/sec per GPU took 0.471652
+[1,0]<stdout>:TIME BEFORE ITER #156 is 1586718663.754598
+[1,0]<stdout>:TIME AFTER ITER #156 is 1586718664.255085
+[1,0]<stdout>:Iter #156: 127.9 img/sec per GPU took 0.500296
+[1,0]<stdout>:TIME BEFORE ITER #157 is 1586718664.255161
+[1,0]<stdout>:TIME AFTER ITER #157 is 1586718664.730941
+[1,0]<stdout>:Iter #157: 134.6 img/sec per GPU took 0.475568
+[1,0]<stdout>:TIME BEFORE ITER #158 is 1586718664.731026
+[1,0]<stdout>:TIME AFTER ITER #158 is 1586718665.233689
+[1,0]<stdout>:Iter #158: 127.4 img/sec per GPU took 0.502487
+[1,0]<stdout>:TIME BEFORE ITER #159 is 1586718665.233768
+[1,0]<stdout>:TIME AFTER ITER #159 is 1586718665.737536
+[1,0]<stdout>:Iter #159: 127.1 img/sec per GPU took 0.503599
+[1,0]<stdout>:TIME BEFORE ITER #160 is 1586718665.737629
+[1,0]<stdout>:TIME AFTER ITER #160 is 1586718666.222271
+[1,0]<stdout>:Iter #160: 132.1 img/sec per GPU took 0.484467
+[1,0]<stdout>:TIME BEFORE ITER #161 is 1586718666.222339
+[1,0]<stdout>:TIME AFTER ITER #161 is 1586718666.706332
+[1,0]<stdout>:Iter #161: 132.3 img/sec per GPU took 0.483761
+[1,0]<stdout>:TIME BEFORE ITER #162 is 1586718666.706412
+[1,0]<stdout>:TIME AFTER ITER #162 is 1586718667.196945
+[1,0]<stdout>:Iter #162: 130.5 img/sec per GPU took 0.490299
+[1,0]<stdout>:TIME BEFORE ITER #163 is 1586718667.197026
+[1,0]<stdout>:TIME AFTER ITER #163 is 1586718667.684519
+[1,0]<stdout>:Iter #163: 131.3 img/sec per GPU took 0.487288
+[1,0]<stdout>:TIME BEFORE ITER #164 is 1586718667.684600
+[1,0]<stdout>:TIME AFTER ITER #164 is 1586718668.179204
+[1,0]<stdout>:Iter #164: 129.4 img/sec per GPU took 0.494423
+[1,0]<stdout>:TIME BEFORE ITER #165 is 1586718668.179272
+[1,0]<stdout>:TIME AFTER ITER #165 is 1586718668.665924
+[1,0]<stdout>:Iter #165: 131.6 img/sec per GPU took 0.486441
+[1,0]<stdout>:TIME BEFORE ITER #166 is 1586718668.666001
+[1,0]<stdout>:TIME AFTER ITER #166 is 1586718669.147828
+[1,0]<stdout>:Iter #166: 132.9 img/sec per GPU took 0.481635
+[1,0]<stdout>:TIME BEFORE ITER #167 is 1586718669.147928
+[1,0]<stdout>:TIME AFTER ITER #167 is 1586718669.632768
+[1,0]<stdout>:Iter #167: 132.0 img/sec per GPU took 0.484669
+[1,0]<stdout>:TIME BEFORE ITER #168 is 1586718669.632867
+[1,0]<stdout>:TIME AFTER ITER #168 is 1586718670.113482
+[1,0]<stdout>:Iter #168: 133.2 img/sec per GPU took 0.480399
+[1,0]<stdout>:TIME BEFORE ITER #169 is 1586718670.113553
+[1,0]<stdout>:TIME AFTER ITER #169 is 1586718670.588255
+[1,0]<stdout>:Iter #169: 134.9 img/sec per GPU took 0.474499
+[1,0]<stdout>:TIME BEFORE ITER #170 is 1586718670.588335
+[1,0]<stdout>:TIME AFTER ITER #170 is 1586718671.069756
+[1,0]<stdout>:Iter #170: 133.0 img/sec per GPU took 0.481200
+[1,0]<stdout>:TIME BEFORE ITER #171 is 1586718671.069838
+[1,0]<stdout>:TIME AFTER ITER #171 is 1586718671.562037
+[1,0]<stdout>:Iter #171: 130.1 img/sec per GPU took 0.492011
+[1,0]<stdout>:TIME BEFORE ITER #172 is 1586718671.562122
+[1,0]<stdout>:TIME AFTER ITER #172 is 1586718672.065462
+[1,0]<stdout>:Iter #172: 127.2 img/sec per GPU took 0.503151
+[1,0]<stdout>:TIME BEFORE ITER #173 is 1586718672.065531
+[1,0]<stdout>:TIME AFTER ITER #173 is 1586718672.541229
+[1,0]<stdout>:Iter #173: 134.6 img/sec per GPU took 0.475504
+[1,0]<stdout>:TIME BEFORE ITER #174 is 1586718672.541314
+[1,0]<stdout>:TIME AFTER ITER #174 is 1586718673.023370
+[1,0]<stdout>:Iter #174: 132.8 img/sec per GPU took 0.481858
+[1,0]<stdout>:TIME BEFORE ITER #175 is 1586718673.023433
+[1,0]<stdout>:TIME AFTER ITER #175 is 1586718673.507662
+[1,0]<stdout>:Iter #175: 132.2 img/sec per GPU took 0.484054
+[1,0]<stdout>:TIME BEFORE ITER #176 is 1586718673.507776
+[1,0]<stdout>:TIME AFTER ITER #176 is 1586718674.020525
+[1,0]<stdout>:Iter #176: 124.9 img/sec per GPU took 0.512525
+[1,0]<stdout>:TIME BEFORE ITER #177 is 1586718674.020612
+[1,0]<stdout>:TIME AFTER ITER #177 is 1586718674.506011
+[1,0]<stdout>:Iter #177: 131.9 img/sec per GPU took 0.485205
+[1,0]<stdout>:TIME BEFORE ITER #178 is 1586718674.506088
+[1,0]<stdout>:TIME AFTER ITER #178 is 1586718674.979401
+[1,0]<stdout>:Iter #178: 135.3 img/sec per GPU took 0.473129
+[1,0]<stdout>:TIME BEFORE ITER #179 is 1586718674.979481
+[1,0]<stdout>:TIME AFTER ITER #179 is 1586718675.465231
+[1,0]<stdout>:Iter #179: 131.8 img/sec per GPU took 0.485579
+[1,0]<stdout>:TIME BEFORE ITER #180 is 1586718675.465296
+[1,0]<stdout>:TIME AFTER ITER #180 is 1586718675.951513
+[1,0]<stdout>:Iter #180: 131.7 img/sec per GPU took 0.486068
+[1,0]<stdout>:TIME BEFORE ITER #181 is 1586718675.951591
+[1,0]<stdout>:TIME AFTER ITER #181 is 1586718676.452968
+[1,0]<stdout>:Iter #181: 127.7 img/sec per GPU took 0.501207
+[1,0]<stdout>:TIME BEFORE ITER #182 is 1586718676.453055
+[1,0]<stdout>:TIME AFTER ITER #182 is 1586718676.929187
+[1,0]<stdout>:Iter #182: 134.5 img/sec per GPU took 0.475941
+[1,0]<stdout>:TIME BEFORE ITER #183 is 1586718676.929270
+[1,0]<stdout>:TIME AFTER ITER #183 is 1586718677.419944
+[1,0]<stdout>:Iter #183: 130.5 img/sec per GPU took 0.490478
+[1,0]<stdout>:TIME BEFORE ITER #184 is 1586718677.420024
+[1,0]<stdout>:TIME AFTER ITER #184 is 1586718677.890201
+[1,0]<stdout>:Iter #184: 136.2 img/sec per GPU took 0.469970
+[1,0]<stdout>:TIME BEFORE ITER #185 is 1586718677.890272
+[1,0]<stdout>:TIME AFTER ITER #185 is 1586718678.379238
+[1,0]<stdout>:Iter #185: 130.9 img/sec per GPU took 0.488808
+[1,0]<stdout>:TIME BEFORE ITER #186 is 1586718678.379304
+[1,0]<stdout>:TIME AFTER ITER #186 is 1586718678.870612
+[1,0]<stdout>:Iter #186: 130.3 img/sec per GPU took 0.491132
+[1,0]<stdout>:TIME BEFORE ITER #187 is 1586718678.870687
+[1,0]<stdout>:TIME AFTER ITER #187 is 1586718679.366403
+[1,0]<stdout>:Iter #187: 129.2 img/sec per GPU took 0.495506
+[1,0]<stdout>:TIME BEFORE ITER #188 is 1586718679.366471
+[1,0]<stdout>:TIME AFTER ITER #188 is 1586718679.844794
+[1,0]<stdout>:Iter #188: 133.9 img/sec per GPU took 0.478107
+[1,0]<stdout>:TIME BEFORE ITER #189 is 1586718679.844875
+[1,0]<stdout>:TIME AFTER ITER #189 is 1586718680.342416
+[1,0]<stdout>:Iter #189: 128.7 img/sec per GPU took 0.497344
+[1,0]<stdout>:TIME BEFORE ITER #190 is 1586718680.342483
+[1,0]<stdout>:TIME AFTER ITER #190 is 1586718680.846756
+[1,0]<stdout>:Iter #190: 127.0 img/sec per GPU took 0.504083
+[1,0]<stdout>:TIME BEFORE ITER #191 is 1586718680.846830
+[1,0]<stdout>:TIME AFTER ITER #191 is 1586718681.348140
+[1,0]<stdout>:Iter #191: 127.7 img/sec per GPU took 0.501150
+[1,0]<stdout>:TIME BEFORE ITER #192 is 1586718681.348213
+[1,0]<stdout>:TIME AFTER ITER #192 is 1586718681.833353
+[1,0]<stdout>:Iter #192: 132.0 img/sec per GPU took 0.484973
+[1,0]<stdout>:TIME BEFORE ITER #193 is 1586718681.833420
+[1,0]<stdout>:TIME AFTER ITER #193 is 1586718682.359098
+[1,0]<stdout>:Iter #193: 121.8 img/sec per GPU took 0.525515
+[1,0]<stdout>:TIME BEFORE ITER #194 is 1586718682.359187
+[1,0]<stdout>:TIME AFTER ITER #194 is 1586718682.852705
+[1,0]<stdout>:Iter #194: 129.7 img/sec per GPU took 0.493307
+[1,0]<stdout>:TIME BEFORE ITER #195 is 1586718682.852797
+[1,0]<stdout>:TIME AFTER ITER #195 is 1586718683.331656
+[1,0]<stdout>:Iter #195: 133.7 img/sec per GPU took 0.478669
+[1,0]<stdout>:TIME BEFORE ITER #196 is 1586718683.331762
+[1,0]<stdout>:TIME AFTER ITER #196 is 1586718683.823170
+[1,0]<stdout>:Iter #196: 130.3 img/sec per GPU took 0.491160
+[1,0]<stdout>:TIME BEFORE ITER #197 is 1586718683.823258
+[1,0]<stdout>:TIME AFTER ITER #197 is 1586718684.310051
+[1,0]<stdout>:Iter #197: 131.5 img/sec per GPU took 0.486561
+[1,0]<stdout>:TIME BEFORE ITER #198 is 1586718684.310125
+[1,0]<stdout>:TIME AFTER ITER #198 is 1586718684.808820
+[1,0]<stdout>:Iter #198: 128.4 img/sec per GPU took 0.498507
+[1,0]<stdout>:TIME BEFORE ITER #199 is 1586718684.808893
+[1,0]<stdout>:TIME AFTER ITER #199 is 1586718685.288751
+[1,0]<stdout>:Iter #199: 133.4 img/sec per GPU took 0.479670
+[1,0]<stdout>:Img/sec per GPU: 129.0 +-6.9
+[1,0]<stdout>:Total img/sec on 16 GPU(s): 2063.6 +-109.7
+[hvd-t4-vm-1:06575] PMIX ERROR: BAD-PARAM in file src/dstore/pmix_esh.c at line 491
