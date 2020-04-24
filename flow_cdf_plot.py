@@ -40,7 +40,7 @@ def main(
     # prepare plot
     plt.title('CDF of flow sizes in {} iterations of {} training\nDump file:{}'.format(iterations_length, model_name, flow_pickle_file))
     plt.ylabel('% of flow sizes per iteration')
-    plt.xlabel('flow size per iteration [GB per iteration]')
+    plt.xlabel('flow size per iteration [MB per iteration]')
 
     # extract information from flow data
     useful_flow_count = 0
@@ -54,8 +54,8 @@ def main(
         iteration_bins = flows[flow_tuple]['iteration_bins']
         
         # flow size must be nontrivial
-        if flow_size < MIN_FLOW_SIZE_THRESHOLD_BYTES:
-            continue
+        # if flow_size < MIN_FLOW_SIZE_THRESHOLD_BYTES:
+        #     continue
 
         # formatted flow string
         flow_str = 'Flow {}: {} ~~> {} sent {} GB'.format(useful_flow_count+1, src_address[-2:], dst_address[-2:], flow_size / 10**9)
@@ -65,13 +65,13 @@ def main(
         bin_sum = sum(iteration_bins)
         print('Disparity: {} bytes'.format(flow_size - bin_sum))
 
-        # scale iteration_bins sizes to GB
-        GB_iteration_bins = []
+        # scale iteration_bins sizes to MB
+        MB_iteration_bins = []
         for size in iteration_bins:
-            size_GB = size / 10 ** 9
-            GB_iteration_bins.append(size_GB)
+            size_MB = size / (10 ** 6)
+            MB_iteration_bins.append(size_MB)
 
-        add_cdf_to_plot(GB_iteration_bins, plt)
+        add_cdf_to_plot(MB_iteration_bins, plt)
         useful_flow_count += 1
 
     plt.legend(tuple(flow_strs))

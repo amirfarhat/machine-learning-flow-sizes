@@ -8,16 +8,16 @@ from tqdm import tqdm
 from plot_cdf import add_cdf_to_plot
 from hvd_analyze_iterations import get_iterations_list
 
+FLOW_SIZE_THRESH_BYTES = 2 * 1000 * 10**6 # MB
+
 path = '/Users/amirfarhat/Desktop/machine-learning-flow-sizes/cerberus_experiments/'
 
 
 def flows_from_pickle(flow_pickle_file):
     # load flow data
     with open(flow_pickle_file, "rb") as raw_pickle:
-        # print(f"Opening pickle {flow_pickle_file}...")
         pickle_data = pickle.load(raw_pickle)
-        # print("Opened!")
-    
+
     # flows is a dict
     flows = pickle_data
     return flows
@@ -63,9 +63,14 @@ def make_flows_cdf_csv(model):
         # fetch flows from pickle
         flows = flows_from_pickle(flow_pickle_file_path)
         for ft in flows:
-            if flows[ft]['flow_size_bytes'] >= 10**9:
-                all_flows.append(flows[ft])
-                flow_size_per_iterations.extend(flows[ft]['iteration_bins'])
+            # if flows[ft]['flow_size_bytes'] >= 10**9:
+            #     all_flows.append(flows[ft])
+            #     flow_size_per_iterations.extend(flows[ft]['iteration_bins'])
+            all_flows.append(flows[ft])
+            # flow_size_per_iterations.extend(flows[ft]['iteration_bins'])
+            for fspi in flows[ft]['iteration_bins']:
+                if fspi > FLOW_SIZE_THRESH_BYTES:
+                    flow_size_per_iterations.append(fspi)
     
     # write csv of flow sizes
     with open(os.path.join(model_dir, flow_cdf_csv_outfile), 'w') as csv_file:
@@ -96,11 +101,12 @@ def make_iteration_and_flow_size_csv(model, iterations, all_flows):
             itdur = it.end_time - it.start_time
             for f in all_flows:
                 fsize = f['iteration_bins'][it.number]
-                writer.writerow({
-                    'iteration_number': 1 + it.number,
-                    'iteration_duration_seconds': itdur,
-                    'flow_size_bytes_in_iteration': fsize,
-                })
+                if fsize > FLOW_SIZE_THRESH_BYTES:
+                    writer.writerow({
+                        'iteration_number': 1 + it.number,
+                        'iteration_duration_seconds': itdur,
+                        'flow_size_bytes_in_iteration': fsize,
+                    })
 
 
 @click.command()

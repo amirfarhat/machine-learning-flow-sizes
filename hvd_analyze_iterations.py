@@ -88,9 +88,11 @@ def main(
 
     # plot CDF of iteration durations
     _, ax2 = plt.subplots()
-    ax2.set_title('CDF of iterations from {} iterations of {} training\n'.format(len(iterations), model_name))
-    ax2.set_ylabel('% of iteration durations')
-    ax2.set_xlabel('iteration duration in [second]')
+    ax2.set_title('CDF of iterations from {} iterations of {} training\n'.format(len(iterations), model_name), fontdict={'fontsize':30})
+    ax2.set_ylabel('% of iteration durations', fontsize=30)
+    ax2.set_xlabel('iteration duration in [second]', fontsize=30)
+    ax2.tick_params(axis='x', labelsize=30)
+    ax2.tick_params(axis='y', labelsize=30)
     items, counts = add_cdf_to_plot(lengths, ax2)
 
     # write csv for iteration durations
