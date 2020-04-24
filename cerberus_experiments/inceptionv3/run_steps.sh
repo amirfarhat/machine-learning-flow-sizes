@@ -122,16 +122,11 @@ python3 hvd_plot_timestamps.py -f cerberus_experiments/inceptionv3/filtered_dump
 
 # ---------------------- STEP 7: on local machine
 
-
-# ~!!!!!!@!@~!@~!@!PROBLEM~!!!!!!@!@~!@~!@!
-
-
 # slice
 python3 hvd_read_simple.py -s slice -f cerberus_experiments/inceptionv3/filtered_dumps/hvd_inceptionv3_iters200_vm1.txt -i cerberus_experiments/inceptionv3/hvd_out_inceptionv3 -o cerberus_experiments/inceptionv3/flow_pickles/slice/inceptionv3_iters200_vm1_flows.pickle &
 python3 hvd_read_simple.py -s slice -f cerberus_experiments/inceptionv3/filtered_dumps/hvd_inceptionv3_iters200_vm2.txt -i cerberus_experiments/inceptionv3/hvd_out_inceptionv3 -o cerberus_experiments/inceptionv3/flow_pickles/slice/inceptionv3_iters200_vm2_flows.pickle & 
 python3 hvd_read_simple.py -s slice -f cerberus_experiments/inceptionv3/filtered_dumps/hvd_inceptionv3_iters200_vm3.txt -i cerberus_experiments/inceptionv3/hvd_out_inceptionv3 -o cerberus_experiments/inceptionv3/flow_pickles/slice/inceptionv3_iters200_vm3_flows.pickle &
 python3 hvd_read_simple.py -s slice -f cerberus_experiments/inceptionv3/filtered_dumps/hvd_inceptionv3_iters200_vm4.txt -i cerberus_experiments/inceptionv3/hvd_out_inceptionv3 -o cerberus_experiments/inceptionv3/flow_pickles/slice/inceptionv3_iters200_vm4_flows.pickle &
-
 
 # graph the sliced packets and save figures
 python3 flow_cdf_plot.py -m inceptionv3 -f cerberus_experiments/inceptionv3/flow_pickles/slice/inceptionv3_iters200_vm1_flows.pickle & 
