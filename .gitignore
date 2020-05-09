@@ -5,6 +5,9 @@ flow_pickles/
 tcpdumps/
 tcptraces/
 
+flow_size_cdf.png
+iterations_cdf.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
