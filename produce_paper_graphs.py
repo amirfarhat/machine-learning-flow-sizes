@@ -64,30 +64,30 @@ def main():
     plt.figure(1)
     _, ax1 = plt.subplots(figsize=FIGSIZE)
     ax1.ticklabel_format(useOffset=False, style='plain')
-    ax1.set_title('CDF of Iteration Durations For Each Model', fontdict={'fontsize':FONT_SIZE})
     ax1.set_ylabel('Percent of Iterations', fontsize=FONT_SIZE)
     ax1.set_xlabel('Iteration Duration (s)', fontsize=FONT_SIZE)
     ax1.set_xscale("log")
     ax1.xaxis.set_minor_formatter(matplotlib.ticker.StrMethodFormatter('{x:.1f}'))
     ax1.xaxis.set_major_formatter(matplotlib.ticker.StrMethodFormatter('{x:.1f}'))
+    ax1.set_xlim(left=0.2, right=3.0)
     for m in models:
         ax1.plot(models[m]['dItems'], models[m]['dCounts'], label=m, linewidth=5)
     for tick in ax1.get_xticklabels(minor=True):
         tick.set_rotation(ROTATION)
     for tick in ax1.get_xticklabels(minor=False):
         tick.set_rotation(ROTATION)
-    ax1.legend(fontsize=LEGEND_SIZE, loc='center')
+    ax1.legend(fontsize=LEGEND_SIZE, loc='upper left')
 
     # plot flow size
     plt.figure(2)
     _, ax2 = plt.subplots(figsize=FIGSIZE)
     ax2.ticklabel_format(useOffset=False, style='plain')
-    ax2.set_title('CDF of Flow Size Per Iteration For Each Model', fontdict={'fontsize':FONT_SIZE})
     ax2.set_ylabel('Percent of Iterations', fontsize=FONT_SIZE)
     ax2.set_xlabel('Iteration Flow Size (MB)', fontsize=FONT_SIZE)
     ax2.set_xscale("log")
     ax2.xaxis.set_minor_formatter(matplotlib.ticker.StrMethodFormatter('{x:.0f}'))
     ax2.xaxis.set_major_formatter(matplotlib.ticker.StrMethodFormatter('{x:.0f}'))
+    ax2.set_xlim(left=10, right=1500)
     for m in models:
         sizes = [s / 10**6 for s in models[m]['fItems']]
         ax2.plot(sizes, models[m]['fCounts'], label=m, linewidth=5)
@@ -95,7 +95,7 @@ def main():
         tick.set_rotation(ROTATION)
     for tick in ax2.get_xticklabels(minor=False):
         tick.set_rotation(ROTATION)
-    ax2.legend(fontsize=LEGEND_SIZE, loc='best')
+    ax2.legend(fontsize=LEGEND_SIZE, loc='upper left')
 
     # save figures
     ax1.figure.savefig('iterations_cdf.png')
